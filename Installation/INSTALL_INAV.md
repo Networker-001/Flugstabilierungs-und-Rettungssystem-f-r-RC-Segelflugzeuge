@@ -67,7 +67,13 @@ Dazu nutzen Sie das PC-Programm "iNAV Configurator".
    Sie das Programm.
 2. Verbinden Sie den SpeedyBee Flight Controller per USB-Kabel mit Ihrem PC.
 3. Wählen Sie oben rechts den passenden COM-Port aus und klicken Sie auf 
-   den grünen Button **`Connect`** (Verbinden). Das Hauptmenü öffnet sich.
+   den grünen Button **`Connect`** (Verbinden).
+4. **Wichtig bei der Erstverbindung:** Da der Controller neu ist, öffnet sich 
+   ein Willkommens-Fenster (Wizard), das nach Modelltyp, Kompass und Sensoren 
+   fragt. **Schließen oder überspringen Sie diesen Assistenten einfach!** 
+   Wir konfigurieren nichts manuell, da das fertige Profil im nächsten Schritt 
+   all diese Einstellungen vollautomatisch einstellt.
+
 
 ### 2. Das fertige Profil einlesen (CLI):
 Um die gesamte Mischer- und Stabilisierungslogik fehlerfrei aufzuspielen, 
