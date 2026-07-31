@@ -155,10 +155,9 @@ den Stiftleisten des SpeedyBee F405 Wing:
 * **`Stiftleiste 7`:** Querruder Links ➔ (Standard iNAV-Flächenmischer)
 * **`Stiftleiste 8`:** Querruder Rechts ➔ (Standard iNAV-Flächenmischer)
 
-### 📸 Ansicht der Stiftleisten-Belegung:
+### 📸 Ansicht des Senders mit INAV Widget:
 
-![Servobelegung am Board](../Bilder/heron_servo_anschluss.jpg)
-*Die am SpeedyBee F405 Wing angesteckten Ruderservos und der Regler des Herons.*
+<img src="tx16s.jpg" width="1000" alt="Einbau im Heron">
 
 ---
 
