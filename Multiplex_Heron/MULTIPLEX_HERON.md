@@ -160,7 +160,7 @@ den Stiftleisten des SpeedyBee F405 Wing:
 
 <img src="TX16s.jpg" width="500" alt="RadioMaster TX16s">
 
-Natürlich können auch andere Sender verwendet werden.
+## Natürlich können auch andere Sender und Protokolle verwendet werden. ##
 
 ---
 
