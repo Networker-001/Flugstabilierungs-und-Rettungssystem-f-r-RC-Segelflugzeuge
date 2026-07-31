@@ -164,7 +164,6 @@ Natürlich können auch andere Sender verwendet werden.
 
 ---
 
-
 ## 💻 6. Einspielen der EdgeTX-Senderkonfiguration (`model16.yml`)
 
 Im Ordner dieses Modells befindet sich die fertige Modelldatei **`model16.yml`** 
@@ -186,6 +185,19 @@ und Mixerbelegung für die Kanäle 1 bis 15.
 5. **Kopieren:** Kopieren Sie die (ggf. umbenannte) Datei auf die SD-Karte.
 6. **Trennen:** Trennen Sie die USB-Verbindung sicher. Das Modell steht nun 
    in Ihrer Modellauswahl auf dem gewählten Platz bereit.
+
+## 🛒 7. Einkaufsliste & Benötigte Hardware
+
+Für den Aufbau dieses Sicherheits- und Assistenzsystems wurden folgende 
+Hardware-Komponenten erfolgreich in der Praxis getestet und freigegeben:
+
+| Komponente     | Empfohlenes Modell       | Link (Google-Suche)                                                                   |
+| :---           | :---                     | :---                                                                                  |
+| **Controller** | SpeedyBee F405 Wing Mini | [SpeedyBee F405 Wing Mini](https://google.com)  |
+| **Alternativ** | Corewing Mini            | [Corewing Mini FC](https://google.com)   |
+| **Navigation** | BZGNSS BZ-251 GPS        | [BZGNSS BZ-251 GPS](https://google.com)                 |
+| **Empfänger**  | FrSky Archer RS Receiver | [FrSky Archer RS Receiver](https://google.com)  |
+   
 
 ## 📦 Inhalt dieses Ordners
 
