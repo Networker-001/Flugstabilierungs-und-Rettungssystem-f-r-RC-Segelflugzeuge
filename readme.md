@@ -110,7 +110,8 @@ zu gestalten. Hier die verfügbaren Anleitungen:
    > In Bearbeitung
 
 **[Flugtaktiken (Flugtaktik.md)](Flugtaktik.md)** 
-   >Flugtaktiken in verschiedenen Situationen
+   >Flugtaktiken in verschiedenen Situationen.
+   >
 
 **[Optionales iNAV Telemetrie-Widget (iNAV_Widget_TX16S/WIDGET.md)](https://github.com/iNavFlight/OpenTX-Telemetry-Widget)**  
    > Das offizielle Open-Source-Widget für das Farbdisplay Ihrer RadioMaster TX16S. 
