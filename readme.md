@@ -79,7 +79,7 @@ des Empfängers und der iNAV-Erstinstallation finden Sie in dieser Anleitung:
 
 ## 📸 Mechanischer Aufbau & Ansichten
 
-*(Hier Fotos deines Teleview-Modells, Einbaus oder FCs einfügen)*
+![CorewingFlugcontroller mit GPS Empfänger und usb / Beeper](Bilder/Controller.jpg)
 
 ---
 
