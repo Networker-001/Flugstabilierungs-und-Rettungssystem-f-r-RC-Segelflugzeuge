@@ -87,3 +87,32 @@ wird die Einstellungs-Datei (CLI-Dump) aus dem jeweiligen Modellordner geladen:
    unten das Wort **`save`** ein und drücken Sie die Eingabetaste (Enter).
 5. Der Flight Controller brennt die Konfiguration in den Flash-Speicher und 
    startet automatisch neu. Das Modell ist nun grundlegend eingerichtet.
+
+### 3. Servomitten und Ausschläge einmessen (Outputs):
+
+Nach dem Neustart müssen die mechanischen Mittenpositionen und die maximalen 
+Ruderwege der Servos kontrolliert und exakt auf Ihr Modell angepasst werden:
+
+1. Navigieren Sie im iNAV Configurator in das linke Menü auf den Reiter 
+   **`Outputs`** (Ausgänge).
+
+2. Schalten Sie den Sicherheits-Schalter **`Enable motor and servo outputs`** 
+   oben rechts aktiv, um Strom auf die Servos zu geben.
+
+3. **Servomitten einstellen (Mid):** Bringen Sie die Ruderflächen am Modell 
+   mechanisch so weit wie möglich in den Strak (Neutralstellung). Korrigieren 
+   Sie kleine Abweichungen im iNAV-Menü, indem Sie den Wert für die 
+   Mittenposition (Standard **`1500`** µs) in der Spalte **`Mid`** beim 
+   jeweiligen Servo anheben oder absenken. Das Servo reagiert dabei sofort 
+   live auf jede Werteänderung.
+
+4. **Endpunkte begrenzen (Min / Max):** Bewegen Sie die Steuerknüppel an der 
+   Fernsteuerung auf Vollausschlag. Reduzieren Sie die Standardwerte in den 
+   Spalten **`Min`** (Standard `1000`) und **`Max`** (Standard `2000`) so weit, 
+   dass die Ruder mechanisch nicht auf Anschlag laufen, die Scharniere nicht 
+   überlastet werden und der Ausschlag symmetrisch ist.
+
+5. **Speichern:** Klicken Sie unten rechts zwingend auf den roten Button 
+   **`Save`**. Erst durch diesen Klick werden die geänderten Werte dauerhaft 
+   auf dem Flight Controller gesichert.
+
