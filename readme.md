@@ -73,7 +73,7 @@ Der geringe Aufwand in der Praxis entsteht durch fertige Einstellungs-Setups:
 Die vollständige Anleitung zur grundlegenden Hardware-Verkabelung, dem Einbau 
 des Empfängers und der iNAV-Erstinstallation finden Sie in dieser Anleitung:
 
-➔ **[Hardware-Aufbau & iNAV-Installation (INSTALL_INAV.md)](INSTALL_INAV.md)**
+➔ **[Hardware-Aufbau & iNAV-Installation (INSTALL_INAV.md)](/Installation/INSTALL_INAV.md)**
 
 ---
 
