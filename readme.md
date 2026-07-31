@@ -108,6 +108,9 @@ zu gestalten. Hier die verfügbaren Anleitungen:
    > Fertiges Setup für die Funcub. Enthält den iNAV-CLI-Dump 
    > Stabilisiertes Schleppflugzeug für Kleinsegler mit Sicherheitsfunktionen.
    > In Bearbeitung
+> 
+
+**[Flugtaktiken (Flugtaktik.md)](Flugtaktik.md)**  
 
 **[Optionales iNAV Telemetrie-Widget (iNAV_Widget_TX16S/WIDGET.md)](https://github.com/iNavFlight/OpenTX-Telemetry-Widget)**  
    > Das offizielle Open-Source-Widget für das Farbdisplay Ihrer RadioMaster TX16S. 
