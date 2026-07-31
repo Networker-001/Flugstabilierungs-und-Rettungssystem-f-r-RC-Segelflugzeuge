@@ -94,14 +94,13 @@ Querruder) für die jeweilige Flugphase:
   Tiefenruder-Beimischung wird direkt über den Sender zugemischt.
 
 ---
-
 ## 📊 3. Kanalbelegung & Schalterfunktionen (Fernsteuerung)
 
 Die folgende Übersicht zeigt die Zuordnung der Kanäle, der physischen Geber 
 an Ihrer RadioMaster TX16S und der zugehörigen iNAV-Flugfunktionen:
 
 | Kanal   | Schalter / Geber  | Funktion im Flugbetrieb                            |
-
+| :---    | :---              | :---                                               |
 | **CH 1**| Knüppel (Thr)     | Throttle (Gas / Motorregler)                       |
 | **CH 2**| Knüppel (Ail)     | Aileron (Querruder)                                |
 | **CH 3**| Knüppel (Ele)     | Elevator (Höhenruder)                              |
