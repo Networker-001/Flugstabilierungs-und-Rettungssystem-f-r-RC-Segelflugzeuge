@@ -20,8 +20,8 @@ passenden Modelldateien für den 4-Klappen-Segler **Multiplex Heron**.
   > deaktiviert, sodass der Segler direkt, ungefiltert und klassisch fliegt.
 
 ---
+<img src="Einbau.jpg" width="400" alt="Einbau im Heron">
 
-![Einbau im Heron](Einbau.jpg)
 
 # 🛰️ Modell-Setup: Multiplex Heron (2,4m E-Segler)
 
