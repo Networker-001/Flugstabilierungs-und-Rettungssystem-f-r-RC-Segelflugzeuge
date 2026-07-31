@@ -81,7 +81,8 @@ des Empfängers und der iNAV-Erstinstallation finden Sie in dieser Anleitung:
 
 ![CorewingFlugcontroller mit GPS Empfänger und usb / Beeper](Bilder/Controller.jpg)
 
-Der Flugcontroller mit GPS Empfänger huckepack, Mini-Empfänger und USB-Modul/ Beeper
+Der Flugcontroller mit GPS Empfänger huckepack, Mini-Empfänger und USB-Modul/ Beeper,
+Kabel zum Akku, das Kabel zum Regler fehlt noch.
 
 ---
 
