@@ -160,7 +160,31 @@ den Stiftleisten des SpeedyBee F405 Wing:
 <img src="TX16s.jpg" width="500" alt="RadioMaster TX16s">
 
 Natürlich können auch andere Sender verwendet werden.
+
 ---
+
+
+## 💻 6. Einspielen der EdgeTX-Senderkonfiguration (`model16.yml`)
+
+Im Ordner dieses Modells befindet sich die fertige Modelldatei **`model16.yml`** 
+für Ihre RadioMaster TX16S. Diese Datei enthält bereits die gesamte Schalter- 
+und Mixerbelegung für die Kanäle 1 bis 15.
+
+### 🛠️ Schritt-für-Schritt-Anleitung zum Kopieren:
+
+1. **Verbinden:** Verbinden Sie Ihre RadioMaster TX16S per USB-Kabel mit dem PC 
+   und wählen Sie im Sender-Display den Modus **"USB-Massenspeicher"**.
+2. **Ordner öffnen:** Öffnen Sie das Laufwerk der SD-Karte auf Ihrem Computer 
+   und navigieren Sie direkt in das Verzeichnis: ➔ **`/MODELS/`**
+3. **Schauen ob frei:** Kontrollieren Sie in diesem Ordner, ob 
+   dort bereits eine Datei mit dem Namen **`model16.yml`** existiert.
+4. **Wenn nicht frei, ändern:** Sollte `model16.yml` bereits vorhanden sein, 
+   müssen Sie die neue Datei auf Ihrem PC vor dem Kopieren zwingend umbenennen. 
+   Wählen Sie die nächste freie, höhere Nummer (z. B. **`model17.yml`**, 
+   **`model18.yml`** usw.), um kein bestehendes Modell zu überschreiben.
+5. **Kopieren:** Kopieren Sie die (ggf. umbenannte) Datei auf die SD-Karte.
+6. **Trennen:** Trennen Sie die USB-Verbindung sicher. Das Modell steht nun 
+   in Ihrer Modellauswahl auf dem gewählten Platz bereit.
 
 ## 📦 Inhalt dieses Ordners
 
