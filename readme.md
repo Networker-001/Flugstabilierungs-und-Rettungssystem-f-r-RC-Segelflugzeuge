@@ -83,15 +83,6 @@ des Empfängers und der iNAV-Erstinstallation finden Sie in dieser Anleitung:
 
 ---
 
-## 🚀 Schnellstart
-
-1. Kopieren Sie die Datei `Bluetooth_Bridge.lua` auf die SD-Karte des Senders in 
-   den Ordner: ➔ **`/SCRIPTS/TOOLS/`**
-2. Starten Sie das Skript an der Fernsteuerung im EdgeTX-Menü unter **"Tools"**.
-3. Bluetooth-Modus (BLE/Classic), Name oder PIN einstellen und "Speichern" drücken.
-
----
-
 ## 📖 Projekt-Dokumentation & Modell-Setups
 
 Dieses Projekt ist modular aufgebaut, um den Einstieg so einfach wie möglich 
