@@ -157,8 +157,9 @@ den Stiftleisten des SpeedyBee F405 Wing:
 
 ### 📸 Ansicht des Senders mit INAV Widget:
 
-<img src="tx16s.jpg" width="1000" alt="Einbau im Heron">
+<img src="TX16s.jpg" width="1000" alt="RadioMaster TX16s">
 
+Natürlich können auch andere Sender verwendet werden.
 ---
 
 ## 📦 Inhalt dieses Ordners
