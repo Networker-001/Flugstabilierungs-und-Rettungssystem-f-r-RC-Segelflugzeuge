@@ -97,21 +97,23 @@ Querruder) für die jeweilige Flugphase:
 
 ## 📊 3. Kanalbelegung & Schalterfunktionen (Fernsteuerung)
 
-Die Kanäle 1 bis 4 steuern die Hauptfunktionen des Seglers. Die Kanäle 5, 6, 
-7, 8, 9, 11, 13 und 15 lesen die Geberstellungen für das iNAV-System ein:
+Die folgende Übersicht zeigt die Zuordnung der Kanäle, der physischen Geber 
+an Ihrer RadioMaster TX16S und der zugehörigen iNAV-Flugfunktionen:
 
-* **CH 1:** Throttle (Gas / Motorregler)
-* **CH 2:** Aileron (Querruder)
-* **CH 3:** Elevator (Höhenruder)
-* **CH 4:** Rudder (Seitenruder)
-* **CH 5:** Aus / Arm (Motor scharf)
-* **CH 6:** Manual / Soaring + Turn Assist (Thermik-Modus)
-* **CH 7:** Aus / Nav Loiter (Kreisflug) / Nav RTH (Heimkehr)
-* **CH 8:** Aus / Nav Cruise + Nav Althold (Streckenflug)
-* **CH 9:** Loiter Radius (Live-Regler für den Kreisflug)
-* **CH 11:** Klappen Ausschlag
-* **CH 13:** Aus / Auto Level Trim (Automatisches Eintrimmen)
-* **CH 15:** Klappen Modus
+| Kanal   | Schalter / Geber  | Funktion im Flugbetrieb                            |
+
+| **CH 1**| Knüppel (Thr)     | Throttle (Gas / Motorregler)                       |
+| **CH 2**| Knüppel (Ail)     | Aileron (Querruder)                                |
+| **CH 3**| Knüppel (Ele)     | Elevator (Höhenruder)                              |
+| **CH 4**| Knüppel (Rud)     | Rudder (Seitenruder)                               |
+| **CH 5**| Schalter **SF**   | Aus / Arm (Motor scharf)                           |
+| **CH 6**| Schalter **SB**   | Manual / Soaring + Turn Assist (Thermik-Modus)     |
+| **CH 7**| Schalter **SD**   | Aus / Nav Loiter (Kreis) / Nav RTH (Heimkehr)      |
+| **CH 8**| Schalter **SC**   | Aus / Nav Cruise + Nav Althold (Streckenflug)      |
+| **CH 9**| Drehregler **RS** | Loiter Radius (Live-Regler für Kreisflug)          |
+| **CH 11**| Drehregler **RS**| Klappen Ausschlag                                  |
+| **CH 13**| Schalter **SD**  | Aus / Auto Level Trim (Automatisches Eintrimmen)   |
+| **CH 15**| Schalter **SG**  | Klappen Modus                                      |
 
 ---
 
