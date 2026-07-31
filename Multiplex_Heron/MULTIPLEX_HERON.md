@@ -20,7 +20,9 @@ passenden Modelldateien für den 4-Klappen-Segler **Multiplex Heron**.
   > deaktiviert, sodass der Segler direkt, ungefiltert und klassisch fliegt.
 
 ---
-<img src="Einbau.jpg" width="1000" alt="Einbau im Heron">
+
+<img src="Speedybeemini.jpg" width="1000" alt="OutBoxing">
+
 
 
 # 🛰️ Modell-Setup: Multiplex Heron (2,4m E-Segler)
@@ -133,8 +135,9 @@ verkabelt und betrieben:
 
 ### 📸 Ansicht der Anschlüsse und Verkabelung:
 
-![Verkabelung Empfänger und GPS](../Bilder/heron_hardware_anschluss.jpg)
-*Physischer Anschluss des FrSky-Empfängers und des GPS-Moduls am Flight Controller.*
+<img src="Einbau.jpg" width="1000" alt="Einbau im Heron">
+
+*Physischer Anschluss des FrSky-Empfängers, beeper Moduls und des GPS-Moduls am Flight Controller leider im eingebauten Zustand.*
 
 ---
 
