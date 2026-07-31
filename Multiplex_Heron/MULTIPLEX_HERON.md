@@ -106,7 +106,7 @@ an Ihrer RadioMaster TX16S und der zugehörigen iNAV-Flugfunktionen:
 | **CH 3**| Knüppel (Ele)     | Elevator (Höhenruder)                              |
 | **CH 4**| Knüppel (Rud)     | Rudder (Seitenruder)                               |
 | **CH 5**| Schalter **SF**   | Aus / Arm (Motor scharf)                           |
-| **CH 6**| Schalter **SB**   | Manual / Soaring + Turn Assist (Thermik-Modus)     |
+| **CH 6**| Schalter **SB**   | Manual / Stabilisiert (Acro)/ Soaring Unterstützung    |
 | **CH 7**| Schalter **SD**   | Aus / Nav Loiter (Kreis) / Nav RTH (Heimkehr)      |
 | **CH 8**| Schalter **SC**   | Aus / Nav Cruise + Nav Althold (Streckenflug)      |
 | **CH 9**| Drehregler **RS** | Loiter Radius (Live-Regler für Kreisflug)          |
