@@ -57,7 +57,7 @@ Servos wird das System zum unsichtbaren Co-Piloten und zur Lebensversicherung:
    (Barometer/GPS) auf Wunsch eine exakte Schräglage und konstante Fahrt. Das 
    zentrierte Kreisen in Aufwinden wird dadurch massiv erleichtert.
 4. **Allgemeine Wind-Stabilisierung:** Automatisches Ausgleichen von böigem 
-   Wind und Turbulenzen am Hang oder im F-Schlepp für ein ruhiges Flugbild.
+   Wind und Turbulenzen sorgen für ein ruhiges Flugbild.
 5. **Manueller Modus:** Manuelle Steuerung ohne Unterstützung
 
 ---
