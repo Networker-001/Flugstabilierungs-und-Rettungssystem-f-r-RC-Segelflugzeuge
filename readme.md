@@ -108,7 +108,7 @@ zu gestalten. Gehen Sie die Schritte einfach nacheinander durch:
 
 ## 🔄 Das Gesamtsystem: Verbindung zur Bluetooth Bridge
 
-![Gesamtsystem / Beeper](Bilder/inav_heron.jpg)
+![Gesamtsystem / Beeper](Bilder/Gesamtsystem.jpg)
 
 Dieses Projekt entfaltet sein volles Potenzial in Kombination mit unserem 
 zweiten Repository: Über die [Bluetooth Bridge](../Bluetooth_Bridge) werden die 
