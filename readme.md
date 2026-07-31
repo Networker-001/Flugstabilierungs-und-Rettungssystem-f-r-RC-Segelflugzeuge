@@ -116,7 +116,7 @@ zu gestalten. Hier die verfügbaren Anleitungen:
 
 ---
 
-## 🔄 Segler, Fernbedienung, optionale Telemetrieanzeige mit Schulterstütze
+## 🔄 Segler, Fernbedienung, optionale Telemetrieanzeige mit Nackenstütze
 
 ![Gesamtsystem / Beeper](Bilder/Gesamtsystem.jpg)
 
