@@ -91,11 +91,14 @@ zu gestalten. Gehen Sie die Schritte einfach nacheinander durch:
 1. ➔ **[Basis-Anleitung (Installation/INSTALL_INAV.md)](Installation/INSTALL_INAV.md)**  
    *(Schritt-für-Schritt: iNAV auf den SpeedyBee flashen, Empfänger verkabeln 
    und die Elektronik im Modell grundlegend aufbauen).*
-2. ➔ **[Multiplex Heron Komplettpaket (Multiplex_Heron/MULTIPLEX_HERON.md)](Multiplex_Heron/MULTIPLEX_HERON.md)**  
+2. ➔ **[iNAV Telemetrie-Widget (iNAV_Widget_TX16S/WIDGET.md)](iNAV_Widget_TX16S/WIDGET.md)**  
+   *(Anleitung zur Installation und Einrichtung des grafischen Telemetrie- 
+   Widgets auf dem Farbdisplay Ihrer RadioMaster TX16S).*
+3. ➔ **[Multiplex Heron Komplettpaket (Multiplex_Heron/MULTIPLEX_HERON.md)](Multiplex_Heron/MULTIPLEX_HERON.md)**  
    *(Fertiges Setup für den 2,4m Schaum-E-Segler. Enthält den iNAV-CLI-Dump 
    und die passende EdgeTX `.yml`-Modelldatei direkt im Ordner).*
-3. ➔ **[ASW 27 Komplettpaket (ASW27_3M6/ASW27_3M6.md)](ASW27_3M6/ASW27_3M6.md)**  
-   *(Fertiges Setup für die 3,6m Segler-Klasse. Enthält den iNAV-CLI-Dump 
+4. ➔ **[ASW 27 Komplettpaket (ASW27_3M6/ASW27_3M6.md)](ASW27_3M6/ASW27_3M6.md)**  
+   *(Fertiges Setup für die 3,6m Großsegler-Klasse. Enthält den iNAV-CLI-Dump 
    und die passende EdgeTX `.yml`-Modelldatei direkt im Ordner).*
 
 ---
