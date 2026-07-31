@@ -1,0 +1,1170 @@
+semver: 2.8.5
+header: 
+   name: "MPX Heron"
+   modelId: 
+      0:
+         val: 13
+   bitmap: "Segl05.jpg"
+   labels: "Favorites,TEST"
+telemetryProtocol: 0
+thrTrim: 1
+noGlobalFunctions: 0
+displayTrims: 0
+ignoreSensorIds: 0
+trimInc: 0
+disableThrottleWarning: 1
+displayChecklist: 0
+extendedLimits: 1
+extendedTrims: 0
+throttleReversed: 0
+enableCustomThrottleWarning: 0
+disableTelemetryWarning: 0
+customThrottleWarningPosition: 0
+beepANACenter: 0
+mixData: 
+ -
+   weight: 100
+   destCh: 0
+   srcRaw: I0
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "Motor"
+ -
+   weight: 100
+   destCh: 1
+   srcRaw: I1
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "AilR"
+ -
+   weight: 100
+   destCh: 2
+   srcRaw: I2
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "Elev"
+ -
+   weight: 25
+   destCh: 2
+   srcRaw: I11
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "SG1"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "F1"
+ -
+   weight: 50
+   destCh: 2
+   srcRaw: I11
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "SG0"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "F2"
+ -
+   weight: 100
+   destCh: 3
+   srcRaw: I3
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "Rudder"
+ -
+   weight: 100
+   destCh: 4
+   srcRaw: I4
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "arm"
+ -
+   weight: 100
+   destCh: 5
+   srcRaw: I5
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "mod"
+ -
+   weight: 100
+   destCh: 6
+   srcRaw: I6
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "mod2"
+ -
+   weight: 100
+   destCh: 9
+   srcRaw: I9
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "flap"
+ -
+   weight: -100
+   destCh: 10
+   srcRaw: I10
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "butt"
+limitData: 
+   9:
+      min: -200
+      max: 200
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 0
+      name: ""
+expoData: 
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: Thr
+   chn: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 100
+   name: ""
+   offset: 0
+   curve: 
+      type: 3
+      value: 1
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: Ail
+   chn: 1
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 100
+   name: ""
+   offset: 0
+   curve: 
+      type: 1
+      value: 0
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: Ele
+   chn: 2
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 100
+   name: ""
+   offset: 0
+   curve: 
+      type: 1
+      value: 0
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: Rud
+   chn: 3
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 100
+   name: ""
+   offset: 0
+   curve: 
+      type: 1
+      value: 0
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: SF
+   chn: 4
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 100
+   name: "arm"
+   offset: 0
+   curve: 
+      type: 1
+      value: 0
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: SB
+   chn: 5
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 100
+   name: "mod"
+   offset: 0
+   curve: 
+      type: 1
+      value: 0
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: SD
+   chn: 6
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 100
+   name: "mod2"
+   offset: 0
+   curve: 
+      type: 1
+      value: 0
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: RS
+   chn: 9
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 100
+   name: "flap"
+   offset: 0
+   curve: 
+      type: 1
+      value: 0
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: SG
+   chn: 10
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 40
+   name: "butt"
+   offset: -40
+   curve: 
+      type: 1
+      value: 0
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: RS
+   chn: 11
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 100
+   name: "trim"
+   offset: 0
+   curve: 
+      type: 1
+      value: 0
+ -
+   mode: 3
+   scale: 0
+   trimSource: 1
+   srcRaw: RS
+   chn: 12
+   swtch: "NONE"
+   flightModes: 000000000
+   weight: 100
+   name: ""
+   offset: 0
+   curve: 
+      type: 1
+      value: 0
+curves: 
+   0:
+      type: 0
+      smooth: 1
+      points: 2
+      name: "thr"
+   1:
+      type: 0
+      smooth: 0
+      points: -2
+      name: "gea"
+points: 
+   0:
+      val: -100
+   1:
+      val: -33
+   2:
+      val: 1
+   3:
+      val: 29
+   4:
+      val: 53
+   5:
+      val: 77
+   6:
+      val: 100
+   7:
+      val: -100
+   8:
+      val: 100
+   9:
+      val: 100
+logicalSw: 
+   0:
+      func: FUNC_VNEG
+      def: "tele(20),1080"
+      andsw: "NONE"
+      delay: 0
+      duration: 0
+customFn: 
+   0:
+      swtch: "SB0"
+      func: OVERRIDE_CHANNEL
+      def: "0,-100,0"
+   2:
+      swtch: "SG2"
+      func: PLAY_TRACK
+      def: "flapup,1x"
+   3:
+      swtch: "SG1"
+      func: PLAY_TRACK
+      def: "flap1,1x"
+   4:
+      swtch: "SG0"
+      func: PLAY_TRACK
+      def: "flapdn,1x"
+   6:
+      swtch: "L1"
+      func: PLAY_TRACK
+      def: "tolow,60"
+   8:
+      swtch: "SC2"
+      func: VARIO
+      def: ""
+flightModeData: 
+   0:
+      trim: 
+         1:
+            value: 4
+            mode: 0
+         2:
+            value: -4
+            mode: 0
+         5:
+            value: 126
+            mode: 0
+      name: ""
+      swtch: "NONE"
+      fadeIn: 0
+      fadeOut: 0
+      gvars: 
+         0:
+            val: -1
+         1:
+            val: 0
+         2:
+            val: 0
+         3:
+            val: 0
+         4:
+            val: 0
+         5:
+            val: 0
+         6:
+            val: 0
+         7:
+            val: 0
+         8:
+            val: 0
+thrTraceSrc: Thr
+switchWarningState: 
+gvars: 
+   0:
+      name: "inv"
+      min: 0
+      max: 0
+      popup: 0
+      prec: 0
+      unit: 0
+varioData: 
+   source: 3
+   centerSilent: 0
+   centerMax: 0
+   centerMin: 0
+   min: 0
+   max: 0
+rssiSource: none
+rfAlarms: 
+   warning: 45
+   critical: 42
+thrTrimSw: 0
+potsWarnMode: WARN_OFF
+jitterFilter: GLOBAL
+moduleData: 
+   0:
+      type: TYPE_MULTIMODULE
+      subType: 64,2
+      channelsStart: 0
+      channelsCount: 16
+      failsafeMode: RECEIVER
+      mod: 
+         multi: 
+            disableTelemetry: 0
+            disableMapping: 0
+            autoBindMode: 0
+            lowPowerMode: 0
+            receiverTelemetryOff: 0
+            receiverHigherChannels: 0
+            optionValue: 25
+inputNames: 
+   0:
+      val: "Thr"
+   1:
+      val: "Ail"
+   2:
+      val: "Ele"
+   3:
+      val: "Rud"
+   4:
+      val: "05"
+   5:
+      val: "06"
+   6:
+      val: "07"
+   9:
+      val: "10"
+   10:
+      val: "11"
+   11:
+      val: "12"
+potsWarnEnabled: 0
+telemetrySensors: 
+   0:
+      id1: 
+         id: 256
+      id2: 
+         instance: 251
+      label: "Alt"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 9
+      prec: 1
+      autoOffset: 1
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   1:
+      id1: 
+         id: 1536
+      id2: 
+         instance: 251
+      label: "Fuel"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 14
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   2:
+      id1: 
+         id: 2048
+      id2: 
+         instance: 251
+      label: "GPS"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 40
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         param: 0
+   3:
+      id1: 
+         id: 272
+      id2: 
+         instance: 251
+      label: "VSpd"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 5
+      prec: 1
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   4:
+      id1: 
+         id: 2112
+      id2: 
+         instance: 251
+      label: "Hdg"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 20
+      prec: 2
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   5:
+      id1: 
+         id: 1104
+      id2: 
+         instance: 251
+      label: "0450"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 0
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   6:
+      id1: 
+         id: 61697
+      id2: 
+         instance: 248
+      label: "RSSI"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 17
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   7:
+      id1: 
+         id: 65534
+      id2: 
+         instance: 248
+      label: "TRSS"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 17
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   8:
+      id1: 
+         id: 65533
+      id2: 
+         instance: 248
+      label: "TQly"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 0
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   9:
+      id1: 
+         id: 61700
+      id2: 
+         instance: 248
+      label: "RxBt"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 1
+      prec: 1
+      autoOffset: 0
+      filter: 1
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 132
+            offset: 0
+   10:
+      id1: 
+         id: 1792
+      id2: 
+         instance: 251
+      label: "AccX"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 19
+      prec: 2
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   11:
+      id1: 
+         id: 1808
+      id2: 
+         instance: 251
+      label: "AccY"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 19
+      prec: 2
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   12:
+      id1: 
+         id: 1824
+      id2: 
+         instance: 251
+      label: "AccZ"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 19
+      prec: 2
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   13:
+      id1: 
+         id: 1136
+      id2: 
+         instance: 251
+      label: "0470"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 0
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   14:
+      id1: 
+         id: 1152
+      id2: 
+         instance: 251
+      label: "0480"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 0
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   15:
+      id1: 
+         id: 1056
+      id2: 
+         instance: 251
+      label: "0420"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 0
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   16:
+      id1: 
+         id: 2080
+      id2: 
+         instance: 251
+      label: "GAlt"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 9
+      prec: 1
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   17:
+      id1: 
+         id: 2320
+      id2: 
+         instance: 251
+      label: "A4"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 1
+      prec: 2
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   18:
+      id1: 
+         id: 1120
+      id2: 
+         instance: 251
+      label: "0460"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 0
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   19:
+      id1: 
+         id: 2096
+      id2: 
+         instance: 251
+      label: "GSpd"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 5
+      prec: 1
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   20:
+      id1: 
+         id: 528
+      id2: 
+         instance: 251
+      label: "VFAS"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 1
+      prec: 2
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   21:
+      id1: 
+         id: 512
+      id2: 
+         instance: 251
+      label: "Curr"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 2
+      prec: 1
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 1
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+screenData: 
+   0:
+      LayoutId: "Layout2x1"
+      layoutData: 
+         zones: 
+            0:
+               widgetName: "Outputs"
+               widgetData: 
+                  options: 
+                     0:
+                        type: Signed
+                        value: 
+                           signedValue: 1
+                     1:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     2:
+                        type: Color
+                        value: 
+                           color: 0x000000
+                     3:
+                        type: Color
+                        value: 
+                           color: 0xF8F800
+                     4:
+                        type: Color
+                        value: 
+                           color: 0x105C98
+            1:
+               widgetName: "ModelBmp"
+               widgetData: 
+                  options: 
+                     0:
+                        type: Color
+                        value: 
+                           color: 0xF8FC00
+                     1:
+                        type: Unsigned
+                        value: 
+                           unsignedValue: 4
+                     2:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+                     3:
+                        type: Color
+                        value: 
+                           color: 0xE0ECF0
+                     4:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+         options: 
+            0:
+               type: Bool
+               value: 
+                  boolValue: 1
+            1:
+               type: Bool
+               value: 
+                  boolValue: 1
+            2:
+               type: Bool
+               value: 
+                  boolValue: 1
+            3:
+               type: Bool
+               value: 
+                  boolValue: 1
+            4:
+               type: Bool
+               value: 
+                  boolValue: 0
+   1:
+      LayoutId: "Layout1x1"
+      layoutData: 
+         zones: 
+            0:
+               widgetName: "iNav"
+               widgetData: 
+                  options: 
+                     0:
+                        type: Bool
+                        value: 
+                           boolValue: 1
+                     1:
+                        type: Color
+                        value: 
+                           color: 0xF8FCF8
+                     2:
+                        type: Color
+                        value: 
+                           color: 0xF8FC00
+         options: 
+            0:
+               type: Bool
+               value: 
+                  boolValue: 0
+            1:
+               type: Bool
+               value: 
+                  boolValue: 0
+            2:
+               type: Bool
+               value: 
+                  boolValue: 0
+            3:
+               type: Bool
+               value: 
+                  boolValue: 0
+            4:
+               type: Bool
+               value: 
+                  boolValue: 0
+   2:
+      LayoutId: "Layout4P2"
+      layoutData: 
+         zones: 
+            0:
+               widgetName: "Value"
+               widgetData: 
+                  options: 
+                     0:
+                        type: Source
+                        value: 
+                           source: tele(6)
+                     1:
+                        type: Color
+                        value: 
+                           color: 0x00F400
+                     2:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+            1:
+               widgetName: "Value"
+               widgetData: 
+                  options: 
+                     0:
+                        type: Source
+                        value: 
+                           source: tele(10)
+                     1:
+                        type: Color
+                        value: 
+                           color: 0x00FC00
+                     2:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+            2:
+               widgetName: "Value"
+               widgetData: 
+                  options: 
+                     0:
+                        type: Source
+                        value: 
+                           source: tele(+12)
+                     1:
+                        type: Color
+                        value: 
+                           color: 0x0000F8
+                     2:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+            3:
+               widgetName: "Value"
+               widgetData: 
+                  options: 
+                     0:
+                        type: Source
+                        value: 
+                           source: tele(16)
+                     1:
+                        type: Color
+                        value: 
+                           color: 0xF8F800
+                     2:
+                        type: Bool
+                        value: 
+                           boolValue: 0
+            4:
+               widgetName: "Value"
+               widgetData: 
+                  options: 
+                     0:
+                        type: Source
+                        value: 
+                           source: tele(+17)
+                     1:
+                        type: Color
+                        value: 
+                           color: 0xF8FC00
+                     2:
+                        type: Bool
+                        value: 
+                           boolValue: 1
+            5:
+               widgetName: "Value"
+               widgetData: 
+                  options: 
+                     0:
+                        type: Source
+                        value: 
+                           source: tele(19)
+                     1:
+                        type: Color
+                        value: 
+                           color: 0xF8FC00
+                     2:
+                        type: Bool
+                        value: 
+                           boolValue: 1
+         options: 
+            0:
+               type: Bool
+               value: 
+                  boolValue: 1
+            1:
+               type: Bool
+               value: 
+                  boolValue: 1
+            2:
+               type: Bool
+               value: 
+                  boolValue: 1
+            3:
+               type: Bool
+               value: 
+                  boolValue: 1
+            4:
+               type: Bool
+               value: 
+                  boolValue: 0
+view: 1
+modelRegistrationID: "Streifel"
