@@ -21,7 +21,7 @@ passenden Modelldateien für den 4-Klappen-Segler **Multiplex Heron**.
 
 ---
 
-![Einbau im Heron](/Einbau.jpg)
+![Einbau im Heron](Einbau.jpg)
 
 # 🛰️ Modell-Setup: Multiplex Heron (2,4m E-Segler)
 
