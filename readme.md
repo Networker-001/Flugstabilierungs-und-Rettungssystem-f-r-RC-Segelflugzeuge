@@ -104,9 +104,9 @@ zu gestalten. Hier die verfügbaren Anleitungen:
    > und die passende EdgeTX-Modelldatei direkt im Ordner.
    > In Bearbeitung
 
-**[Funcub Paket] ()**  
-   > Fertiges Setup für die Funcub Enthält den iNAV-CLI-Dump 
-   > Stabilisiertes Schleppflugzeug für Kleinsegler.
+**[Multiplex Funcub Paket] ()**  
+   > Fertiges Setup für die Funcub. Enthält den iNAV-CLI-Dump 
+   > Stabilisiertes Schleppflugzeug für Kleinsegler mit Sicherheitsfunktionen.
    > In Bearbeitung
 
 **[Optionales iNAV Telemetrie-Widget (iNAV_Widget_TX16S/WIDGET.md)](https://github.com/iNavFlight/OpenTX-Telemetry-Widget)**  
