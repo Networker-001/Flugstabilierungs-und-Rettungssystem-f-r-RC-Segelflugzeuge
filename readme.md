@@ -11,6 +11,15 @@ bisher keine Berührungspunkte mit Multirotor- oder Drohnentechnologien hatten.
 
 ---
 
+## 📸 Mechanischer Aufbau & Ansichten
+
+![CorewingFlugcontroller mit GPS Empfänger und usb / Beeper](Bilder/Controller.jpg)
+
+Der Flugcontroller mit GPS Empfänger huckepack, Mini-Empfänger und USB-Modul/ Beeper,
+Kabel zum Akku, das Kabel zum Regler fehlt noch.
+
+---
+
 ## 🚨 Die realen Risiken beim Segelfliegen
 
 Klassische Segelflugmodelle repräsentieren oft einen sehr hohen finanziellen 
@@ -74,15 +83,6 @@ Die vollständige Anleitung zur grundlegenden Hardware-Verkabelung, dem Einbau
 des Empfängers und der iNAV-Erstinstallation finden Sie in dieser Anleitung:
 
 ➔ **[Hardware-Aufbau & iNAV-Installation (INSTALL_INAV.md)](/Installation/INSTALL_INAV.md)**
-
----
-
-## 📸 Mechanischer Aufbau & Ansichten
-
-![CorewingFlugcontroller mit GPS Empfänger und usb / Beeper](Bilder/Controller.jpg)
-
-Der Flugcontroller mit GPS Empfänger huckepack, Mini-Empfänger und USB-Modul/ Beeper,
-Kabel zum Akku, das Kabel zum Regler fehlt noch.
 
 ---
 
