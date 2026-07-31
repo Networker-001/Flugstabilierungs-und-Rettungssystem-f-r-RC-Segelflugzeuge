@@ -109,7 +109,7 @@ zu gestalten. Hier die verfügbaren Anleitungen:
 
 ---
 
-## 🔄 Das Gesamtsystem: Verbindung zur Bluetooth Bridge
+## 🔄 Segler, Frenbedienung, optionale Telemetrieanzeige mit Schulterstütze
 
 ![Gesamtsystem / Beeper](Bilder/Gesamtsystem.jpg)
 
