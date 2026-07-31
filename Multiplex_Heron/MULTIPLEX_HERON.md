@@ -157,7 +157,7 @@ den Stiftleisten des SpeedyBee F405 Wing:
 
 ### 📸 Ansicht des Senders mit INAV Widget:
 
-<img src="TX16s.jpg" width="1000" alt="RadioMaster TX16s">
+<img src="TX16s.jpg" width="800" alt="RadioMaster TX16s">
 
 Natürlich können auch andere Sender verwendet werden.
 ---
