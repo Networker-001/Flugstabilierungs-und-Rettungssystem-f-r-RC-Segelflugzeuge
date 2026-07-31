@@ -89,7 +89,7 @@ Kabel zum Akku, das Kabel zum Regler fehlt noch.
 ## 📖 Projekt-Dokumentation & Modell-Setups
 
 Dieses Projekt ist modular aufgebaut, um den Einstieg so einfach wie möglich 
-zu gestalten. Gehen Sie die Schritte einfach nacheinander durch:
+zu gestalten. Hier die verfügbaren Anleitungen:
 
 1. ➔ **[Basis-Anleitung (Installation/INSTALL_INAV.md)](Installation/INSTALL_INAV.md)**  
    > Schritt-für-Schritt: iNAV auf den SpeedyBee flashen, Empfänger verkabeln 
