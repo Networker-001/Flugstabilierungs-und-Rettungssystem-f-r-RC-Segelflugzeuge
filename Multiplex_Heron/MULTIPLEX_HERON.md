@@ -193,10 +193,10 @@ Hardware-Komponenten erfolgreich in der Praxis getestet und freigegeben:
 
 | Komponente     | Empfohlenes Modell       | Link (Google-Suche)                                                                   |
 | :---           | :---                     | :---                                                                                  |
-| **Controller** | SpeedyBee F405 Wing Mini | [SpeedyBee F405 Wing Mini](https://google.com+SpeedyBee F405 Wing Mini)  |
-| **Alternativ** | Corewing Mini            | [Corewing Mini FC](https://google.com+corewing Mini)   |
+| **Controller** | SpeedyBee F405 Wing Mini | [SpeedyBee F405 Wing Mini](https://google.com+ SpeedyBee F405 Wing Mini)  |
+| **Alternativ** | Corewing Mini            | [Corewing Mini FC](https://google.com+ corewing Mini)   |
 | **Navigation** | BZGNSS BZ-251 GPS        | [BZGNSS BZ-251 GPS](https://google.com+ BZGNSS BZ-251)                 |
-| **Empfänger**  | FrSky Archer RS Receiver | [FrSky Archer RS Receiver](https://google.com+FrSky Archer RS Receiver)  |
+| **Empfänger**  | FrSky Archer RS Receiver | [FrSky Archer RS Receiver](https://google.com+ FrSky Archer RS Receiver)  |
    
 
 ## 📦 Inhalt dieses Ordners
