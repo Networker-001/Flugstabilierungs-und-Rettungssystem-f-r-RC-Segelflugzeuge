@@ -103,7 +103,7 @@ zu gestalten. Gehen Sie die Schritte einfach nacheinander durch:
    > Fertiges Setup für die 3,6m Segler-Klasse. Enthält den iNAV-CLI-Dump 
    > und die passende EdgeTX-Modelldatei direkt im Ordner.
    
-4. ➔ **[iNAV Telemetrie-Widget (iNAV_Widget_TX16S/WIDGET.md)](https://github.com/iNavFlight/OpenTX-Telemetry-Widget)**  
+4. ➔ **[Optionales iNAV Telemetrie-Widget (iNAV_Widget_TX16S/WIDGET.md)](https://github.com/iNavFlight/OpenTX-Telemetry-Widget)**  
    > Das offizielle Open-Source-Widget für das Farbdisplay Ihrer RadioMaster TX16S. 
    > Liefert den künstlichen Horizont, Höhen-Graphen und Sprachansagen live per Funk.
 
