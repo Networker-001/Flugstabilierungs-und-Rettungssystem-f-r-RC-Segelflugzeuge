@@ -108,6 +108,8 @@ zu gestalten. Gehen Sie die Schritte einfach nacheinander durch:
 
 ## 🔄 Das Gesamtsystem: Verbindung zur Bluetooth Bridge
 
+![Gesamtsystem / Beeper](Bilder/inav_heron.jpg)
+
 Dieses Projekt entfaltet sein volles Potenzial in Kombination mit unserem 
 zweiten Repository: Über die [Bluetooth Bridge](../Bluetooth_Bridge) werden die 
 autonomen iNAV-Fluglagendaten und der Thermik-Status live per Funk an das 
