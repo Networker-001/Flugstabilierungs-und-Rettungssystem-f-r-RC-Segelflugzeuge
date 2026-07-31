@@ -35,7 +35,7 @@ und zeitlichen Wert. Im Flugbetrieb kommt es regelmäßig zu Stresssituationen:
 * **Risiko des Wegfliegens:** Ohne Sichtkontakt fliegt das Modell unkontrolliert 
   weiter, was den totalen Verlust des wertvollen Modells bedeutet.
 * **Dauerhafter Sichtkontakt-Zwang:** Der Pilot ist ständig gezwungen, das 
-  Modell ununterbrochen scharf zu beobachten. Ein kurzer Blick auf den Sender 
+  Modell zu beobachten. Ein kurzer Blick auf den Sender 
   oder das Entspannen der Nackenmuskulatur ist oftmals kritisch.
 
 ---
