@@ -48,7 +48,7 @@ und Automatismen konfiguriert:
   einzutrimmen. iNAV lernt die Mittenpositionen fliegend ein.
 
 ---
-## Der Controller
+## Der Controller "Speedybee Fixed Wing Mini"
 
 
 <img src="Speedybeemini.jpg" width="1000" alt="OutBoxing">
