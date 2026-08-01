@@ -1,7 +1,7 @@
 
-# 🛰️ Modell-Setup: Multiplex Heron (2,4m E-Segler)
+# Modell-Setup: Multiplex Heron (2,4m E-Segler)
 
-## 💡 Die Besonderheiten und Flugfunktionen im Überblick
+## Die Besonderheiten und Flugfunktionen im Überblick
 
 Für den Flugbetrieb wurden im iNAV-System folgende aerodynamische Schutzfunktionen 
 und Automatismen konfiguriert:
@@ -42,8 +42,14 @@ und Automatismen konfiguriert:
   einzutrimmen. iNAV lernt die Mittenpositionen fliegend ein.
 
 ---
+## Der Controller
 
-## 🎛️ Praxis-Anleitung: Die Schalterbelegung im Flug
+
+<img src="Speedybeemini.jpg" width="1000" alt="OutBoxing">
+
+---
+
+## Praxis-Anleitung: Die Schalterbelegung im Flug
 
 Die Steuerung im Alltag erfolgt über zwei Hauptschalter auf den Kanälen 7 und 15 
 sowie einen Drehregler auf Kanal 9:
@@ -68,7 +74,7 @@ Querruder) für die jeweilige Flugphase:
   Tiefenruder-Beimischung wird direkt über den Sender zugemischt.
 
 ---
-## 📊 3. Kanalbelegung & Schalterfunktionen (Fernsteuerung)
+## 3. Kanalbelegung & Schalterfunktionen (Fernsteuerung)
 
 Die folgende Übersicht zeigt die Zuordnung der Kanäle, der physischen Geber 
 an Ihrer RadioMaster TX16S und der zugehörigen iNAV-Flugfunktionen:
