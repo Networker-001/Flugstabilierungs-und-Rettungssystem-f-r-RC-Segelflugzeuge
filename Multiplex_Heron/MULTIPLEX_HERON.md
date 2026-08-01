@@ -79,20 +79,20 @@ Querruder) für die jeweilige Flugphase:
 Die folgende Übersicht zeigt die Zuordnung der Kanäle, der physischen Geber 
 an Ihrer RadioMaster TX16S und der zugehörigen iNAV-Flugfunktionen:
 
-| Kanal   | Schalter / Geber  | Funktion im Flugbetrieb                            |
-| :---    | :---              | :---                                               |
-| **CH 1**| Knüppel (Thr)     | Throttle (Gas / Motorregler)                       |
-| **CH 2**| Knüppel (Ail)     | Aileron (Querruder)                                |
-| **CH 3**| Knüppel (Ele)     | Elevator (Höhenruder)                              |
-| **CH 4**| Knüppel (Rud)     | Rudder (Seitenruder)                               |
-| **CH 5**| Schalter **SF**   | Aus / Arm (Motor scharf)                           |
-| **CH 6**| Schalter **SB**   | Manual / Stabilisiert (Acro)/ Soaring Unterstützung    |
-| **CH 7**| Schalter **SD**   | Aus / Nav Loiter (Kreis) / Nav RTH (Heimkehr)      |
-| **CH 8**| Schalter **SC**   | Aus / Nav Cruise + Nav Althold (Streckenflug)      |
-| **CH 9**| Drehregler **LS** | Loiter Radius (Live-Regler für Kreisflug)          |
-| **CH 11**| Schalter **SG**| Klappen Ausschlag                                  |
-| **CH 13**| Schalter **SD**  | Aus / Auto Level Trim (Automatisches Eintrimmen)   |
-| **CH 15**| Schalter **SG**  | Klappen Modus                                      |
+| Kanal   | Schalter / Geber  | Funktion im Flugbetrieb                            | Min Wert | Mitte |Max Wert |
+| :---    | :---              | :---                                               | :---  | :---  |:---  |
+| **CH 1**| Knüppel (Thr)     | Throttle (Gas / Motorregler)                       | -100%  | 0% |100 %|
+| **CH 2**| Knüppel (Ail)     | Aileron (Querruder)                                | -120%  | 0% |120 %|
+| **CH 3**| Knüppel (Ele)     | Elevator (Höhenruder)                              | -100%  | 0% |100 %|
+| **CH 4**| Knüppel (Rud)     | Rudder (Seitenruder)                               | -100%  | 0% |100 %|
+| **CH 5**| Schalter **SF**   | Aus / Arm (Motor scharf)                           | -100%  | 0% |100 %|
+| **CH 6**| Schalter **SB**   | Manual / Stabilisiert (Acro)/ Soaring Unterstützung    | -100%  | 0% |100 %|
+| **CH 7**| Schalter **SD**   | Aus / Nav Loiter (Kreis) / Nav RTH (Heimkehr)      | -100%  | 0% |100 %|
+| **CH 8**| Schalter **SC**   | Aus / Nav Cruise + Nav Althold (Streckenflug)      | -100%  | 0% |100 %|
+| **CH 9**| Drehregler **LS** | Loiter Radius (Live-Regler für Kreisflug)          | -100%  | 0% |100 %|
+| **CH 11**| Schalter **SG**| Klappen Ausschlag                                  | -0%  | 40% | 80 %|
+| **CH 13**| Schalter **SD**  | Aus / Auto Level Trim (Automatisches Eintrimmen)   | -100%  | 0% | 100 %|
+| **CH 15**| Schalter **SG**  | Klappen Modus                                      | 8%  | 0% | 80 %|
 
 ---
 
