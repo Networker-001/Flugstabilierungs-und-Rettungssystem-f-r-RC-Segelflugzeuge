@@ -21,10 +21,9 @@ fehlerfrei zu nutzen.
    genügend Satelliten erfasst sind, blockiert die iNAV-Software aus 
    Sicherheitsgründen das Scharfschalten des Motors (Arming-Sperre).
 
-4. **Bestätigung & Freigabe:** Sobald der GPS-Lock fehlerfrei steht und Sie den 
-   Arming-Schalter betätigen, bestätigt das System die vollständige Freigabe 
-   über eine akustische Tonfolge (Piep-Muster). Erst nach dieser Bestätigung 
-   kann das Modell sicher geflogen werden.
+4. **Bestätigung & Freigabe:** Sobald der GPS-Lock fehlerfrei steht , bestätigt das
+   System die vollständige Freigabe    über eine akustische Tonfolge (Piep-Muster).
+   Erst nach dieser Bestätigung kann das Modell sicher geflogen werden.
 
 ### Phase 2: Alle Funktionen im Pre-Flight-Test prüfen
 
