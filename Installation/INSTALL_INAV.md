@@ -116,10 +116,10 @@ Schalten Sie Ihre Fernsteuerung ein. Die farbigen Balken im Menü `Receiver`
 müssen nun synchron reagieren. Falls Sie Änderungen vornehmen mussten, klicken 
 Sie unten rechts starr auf **`Save and Reboot`**.
 
-### 4. Servomitten und Ausschläge einmessen (Outputs):
+### 4. Servomitten, Ausschläge und Drehrichtungen einmessen (Outputs):
 
-Nach dem Neustart müssen die mechanischen Mittenpositionen und die maximalen 
-Ruderwege der Servos kontrolliert und exakt auf Ihr Modell angepasst werden:
+Nach dem Neustart müssen die mechanischen Mittenpositionen, die maximalen 
+Ruderwege sowie die korrekten Drehrichtungen der Servos angepasst werden:
 
 1. Navigieren Sie im iNAV Configurator in das linke Menü auf den Reiter 
    **`Outputs`** (Ausgänge).
@@ -140,6 +140,18 @@ Ruderwege der Servos kontrolliert und exakt auf Ihr Modell angepasst werden:
    dass die Ruder mechanisch nicht auf Anschlag laufen, die Scharniere nicht 
    überlastet werden und der Ausschlag symmetrisch ist.
 
-5. **Speichern:** Klicken Sie unten rechts zwingend auf den roten Button 
-   **`Save`**. Erst durch diesen Klick werden die geänderten Werte dauerhaft 
-   auf dem Flight Controller gesichert.
+5. **Drehrichtung kontrollieren (Direction):** Prüfen Sie die Ruderlaufrichtung 
+   sowohl für Ihre Steuerknüppel als auch für die automatische Gyro-Korrektur:
+   * **Knüppel-Test:** Bewegen Sie die Knüppel am Sender. Läuft ein Ruder in 
+     die falsche Richtung, invertieren Sie die Richtung in der Spalte 
+     **`Direction`** beim betroffenen Servo von `Normal` auf **`Reversed`**.
+   * **Autopilot-Gegenprobe:** Heben Sie das Modell auf der Werkbank an und 
+     bewegen Sie es von Hand (Nase runter/hoch, Tragfläche links/rechts 
+     kippen). Die Flugsteuerung muss den Servos *immer* automatisch so 
+     entgegensteuern, dass das Modell sich wieder in die Waagerechte bringen 
+     würde (z. B. Nase runter ➔ Höhenruder schlägt automatisch nach oben aus).
+
+6. **Speichern:** Klicken Sie unten rechts zwingend auf den roten Button 
+   **`Save`**. Erst durch diesen Klick werden die geänderten Werte und 
+   Laufrichtungen dauerhaft auf dem Flight Controller gesichert.
+
