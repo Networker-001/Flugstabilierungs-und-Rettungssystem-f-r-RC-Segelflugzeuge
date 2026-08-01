@@ -1,6 +1,12 @@
 
 # Modell-Setup: Multiplex Heron (2,4m E-Segler)
 
+### Ansicht der Anschlüsse und Verkabelung:
+
+<img src="Einbau.jpg" width="1000" alt="Einbau im Heron">
+
+*Physischer Anschluss des FrSky-Empfängers, beeper Moduls und des GPS-Moduls am Flight Controller leider im eingebauten Zustand.*
+
 ## Die Besonderheiten und Flugfunktionen im Überblick
 
 Für den Flugbetrieb wurden im iNAV-System folgende aerodynamische Schutzfunktionen 
@@ -90,7 +96,7 @@ an Ihrer RadioMaster TX16S und der zugehörigen iNAV-Flugfunktionen:
 | **CH 7**| Schalter **SD**   | Aus / Nav Loiter (Kreis) / Nav RTH (Heimkehr)      | -100%  | 0% |100 %|
 | **CH 8**| Schalter **SC**   | Aus / Nav Cruise + Nav Althold (Streckenflug)      | -100%  | 0% |100 %|
 | **CH 9**| Drehregler **LS** | Loiter Radius (Live-Regler für Kreisflug)          | -100%  | 0% |100 %|
-| **CH 11**| Schalter **SG**| Klappen Modus                                  | -0%  | 40% | 80 %|
+| **CH 11**| Schalter **SG**| Klappen Modus                                  | 0%  | 40% | 80 %|
 | **CH 13**| Schalter **SD**  | Aus / Auto Level Trim (Automatisches Eintrimmen)   | -100%  | 0% | 100 %|
 | **CH 15**| Schalter **SG**  | Klappen Ausschlag                                      | 8%  | 0% | 80 %|
 
@@ -113,12 +119,6 @@ verkabelt und betrieben:
   **Port 4 (seitlicher Stecker)** angeschlossen. Softwareseitig läuft diese 
   Übertragung über den emulierten Port **`SOFTSERIAL1`** (Spalte *Telemetry* 
   ➔ *SmartPort*).
-
-### 📸 Ansicht der Anschlüsse und Verkabelung:
-
-<img src="Einbau.jpg" width="1000" alt="Einbau im Heron">
-
-*Physischer Anschluss des FrSky-Empfängers, beeper Moduls und des GPS-Moduls am Flight Controller leider im eingebauten Zustand.*
 
 ---
 
@@ -150,7 +150,7 @@ Im Ordner dieses Modells befindet sich die fertige Modelldatei **`model16.yml`**
 für Ihre RadioMaster TX16S. Diese Datei enthält bereits die gesamte Schalter- 
 und Mixerbelegung für die Kanäle 1 bis 15.
 
-### 🛠️ Schritt-für-Schritt-Anleitung zum Kopieren:
+### Schritt-für-Schritt-Anleitung zum Kopieren:
 
 1. **Verbinden:** Verbinden Sie Ihre RadioMaster TX16S per USB-Kabel mit dem PC 
    und wählen Sie im Sender-Display den Modus **"USB-Massenspeicher"**.
@@ -179,7 +179,7 @@ Hardware-Komponenten erfolgreich in der Praxis getestet und freigegeben:
 | **Empfänger**  | FrSky Archer RS Receiver | [FrSky Archer RS Receiver](https://google.com?q=FrSky+Archer+RS+Receiver)  |
    
 
-## 📦 Inhalt dieses Ordners
+## Inhalt dieses Ordners
 
 1. **`heron_inav_cli.txt`:** Der fertige iNAV-CLI-Dump mit allen oben genannten 
    aerodynamischen Filtern, Logikschaltern und Mischern.
