@@ -5,7 +5,7 @@ Flight Controllers, den Empfänger-Anschluss sowie das Einlesen des fertigen
 Einstellungs-Setups über die Software.
 
 
-<img src="SpeedybeePorts.jpg" width="600" alt="Anschlüsse">
+<img src="SpeedyBeePorts.jpg" width="600" alt="Anschlüsse">
 ---
 
 ## 🔧 1. Mechanischer Aufbau des Flight Controllers
