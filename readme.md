@@ -122,6 +122,6 @@ hauseigene Teleview-Display an der Fernsteuerung oder an die offizielle
 
 ---
 
-## 📜 Lizenz
+## Lizenz
 
 **MIT License** - Frei für alle Freunde von EdgeTX und des Segelflugs!
