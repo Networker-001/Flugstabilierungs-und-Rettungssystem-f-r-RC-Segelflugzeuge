@@ -25,18 +25,18 @@ Kabel zum Akku, das Kabel zum Regler fehlt noch.
 Klassische Segelflugmodelle repräsentieren oft einen sehr hohen finanziellen 
 und zeitlichen Wert. Im Flugbetrieb kommt es regelmäßig zu Stresssituationen:
 
-* **Gefährdung durch Absturz:** Verliert das Modell die Eigenstabilität oder 
-  gerät in eine unklare Fluglage, stürzt es unkontrolliert ab. Ein unkontrolliert 
-  abstürzendes Modell stellt eine erhebliche physische Gefährdung für Personen, 
-  Sachen und den Luftraum am Boden dar.
+* **Dauerhafter Sichtkontakt-Zwang:** Der Pilot ist ständig gezwungen, das 
+  Modell zu beobachten. Ein kurzer Blick auf den Sender 
+  oder das Entspannen der Nackenmuskulatur ist oftmals kritisch.
 * **Raumlageverlust bei schlechter Sicht:** Dunst, starkes Gegenlicht, weite 
   Entfernungen oder das unbeabsichtigte Einfliegen in Wolkenfetzen führen 
   in Sekunden zum totalen Verlust der Fluglage-Erkennung.
 * **Risiko des Wegfliegens:** Ohne Sichtkontakt fliegt das Modell unkontrolliert 
   weiter, was den totalen Verlust des wertvollen Modells bedeutet.
-* **Dauerhafter Sichtkontakt-Zwang:** Der Pilot ist ständig gezwungen, das 
-  Modell zu beobachten. Ein kurzer Blick auf den Sender 
-  oder das Entspannen der Nackenmuskulatur ist oftmals kritisch.
+* **Gefährdung durch Absturz:** Verliert das Modell die Eigenstabilität oder 
+  gerät in eine unklare Fluglage, kann es unkontrolliert abstürzen. Ein unkontrolliert 
+  abstürzendes Modell stellt eine erhebliche physische Gefährdung für Personen, 
+  Sachen und den Luftraum am Boden dar.
 
 ---
 
@@ -59,7 +59,12 @@ Servos wird das System zum unsichtbaren Co-Piloten und zur Lebensversicherung:
 4. **Allgemeine Wind-Stabilisierung:** Automatisches Ausgleichen von böigem 
    Wind und Turbulenzen sorgen für ein ruhiges Flugbild.
 5. **Manueller Modus:** Manuelle Steuerung ohne Unterstützung
-
+6. **Startunterstützung beim Wurf:** Der FC erkennt den Wurf und steuert das
+   Modell auf eine stabile Flughöhe bis der Pilot übernimmt.
+7. **Akustische Warnmeldungen:** Der FC erkennt technische Defeckte und
+   nicht sichere Startparameter wie Unterspannung, fehlende GPS synchronisation
+   und meldet das über akustisches Beepen.
+   
 ---
 
 ## 💻 Minimaler Aufwand durch vordefinierte Setups
