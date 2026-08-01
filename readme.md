@@ -115,10 +115,10 @@ Viel Spass beim Lesen und Nachbauen.
 ![Gesamtsystem / Beeper](Bilder/Gesamtsystem.jpg)
 
 Nicht zwingend notwendig, aber ein Blick wie weit die Reise gehen kann:
-Über die [Bluetooth Bridge](../Bluetooth_Bridge) werden die 
+Über die [Bluetooth Bridge](https://github.com/Networker-001/TX16s-Bluetooth-Bridge) werden die 
 autonomen iNAV-Fluglagendaten und der Thermik-Status live per Funk an das 
-hauseigene Teleview-Display an der Fernsteuerung oder an die offizielle 
-[Telemetry Viewer App](https://google.com) übertragen.
+Teleview-Display an der Fernsteuerung oder an die offizielle 
+[Telemetry Viewer App](https://play.google.com/store/apps/details?id=crazydude.com.telemetry&hl=de) übertragen.
 
 ---
 
