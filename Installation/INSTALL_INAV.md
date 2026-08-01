@@ -1,4 +1,4 @@
-# 🛰️ Basis-Anleitung: Hardware-Aufbau & iNAV-Konfiguration
+# Basis-Anleitung: Hardware-Aufbau & iNAV-Konfiguration
 
 Diese Anleitung beschreibt den mechanischen Zusammenbau des SpeedyBee F405 Wing 
 Flight Controllers, den Empfänger-Anschluss sowie das Einlesen des fertigen 
@@ -27,7 +27,7 @@ Einbau im Rumpf mechanisch vorbereitet werden:
 
 ---
 
-## 🔌 2. Universelle Stromversorgung & BEC
+## 2. Universelle Stromversorgung & BEC
 
 Das integrierte BEC des Controllers übernimmt die Stromversorgung aller 
 Komponenten direkt über den Flugakku:
@@ -42,7 +42,7 @@ Komponenten direkt über den Flugakku:
 
 ---
 
-## 📻 3. Anschluss des FrSky-Empfängers
+## 3. Anschluss des FrSky-Empfängers
 
 Die Verbindung zwischen dem FrSky-Empfänger und dem SpeedyBee erfolgt über 
 zwei getrennte Signalwege (Steuerung und Telemetrie-Ausgang):
@@ -61,7 +61,7 @@ zwei getrennte Signalwege (Steuerung und Telemetrie-Ausgang):
 
 ---
 
-## 💻 4. iNAV-Software einrichten & Profil laden
+## 4. iNAV-Software einrichten & Profil laden
 
 Nachdem die Hardware verbaut ist, wird das fertige Modell-Setup eingelesen. 
 Dazu nutzen Sie das PC-Programm "iNAV Configurator".
