@@ -90,9 +90,9 @@ an Ihrer RadioMaster TX16S und der zugehörigen iNAV-Flugfunktionen:
 | **CH 7**| Schalter **SD**   | Aus / Nav Loiter (Kreis) / Nav RTH (Heimkehr)      | -100%  | 0% |100 %|
 | **CH 8**| Schalter **SC**   | Aus / Nav Cruise + Nav Althold (Streckenflug)      | -100%  | 0% |100 %|
 | **CH 9**| Drehregler **LS** | Loiter Radius (Live-Regler für Kreisflug)          | -100%  | 0% |100 %|
-| **CH 11**| Schalter **SG**| Klappen Ausschlag                                  | -0%  | 40% | 80 %|
+| **CH 11**| Schalter **SG**| Klappen Modus                                  | -0%  | 40% | 80 %|
 | **CH 13**| Schalter **SD**  | Aus / Auto Level Trim (Automatisches Eintrimmen)   | -100%  | 0% | 100 %|
-| **CH 15**| Schalter **SG**  | Klappen Modus                                      | 8%  | 0% | 80 %|
+| **CH 15**| Schalter **SG**  | Klappen Ausschlag                                      | 8%  | 0% | 80 %|
 
 ---
 
