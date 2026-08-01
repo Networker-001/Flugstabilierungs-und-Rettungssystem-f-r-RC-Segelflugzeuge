@@ -126,6 +126,6 @@ an das Teleview-Display an der Fernsteuerung oder an die kartenbasierte
 
 ---
 
-## 📝 Lizenz
+## Lizenz
 
 **MIT License** - Frei für alle Freunde von EdgeTX und des Segelflugs!
