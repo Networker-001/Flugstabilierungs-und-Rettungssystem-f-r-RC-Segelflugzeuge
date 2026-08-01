@@ -1,32 +1,6 @@
 
 # 🛰️ Modell-Setup: Multiplex Heron (2,4m E-Segler)
 
-Dieses Verzeichnis enthält die iNAV-Flugsteuerungskonfiguration und die 
-passenden Modelldateien für den 4-Klappen-Segler **Multiplex Heron**. 
-
-### 🎯 Die 4 Hauptziele dieses Systems:
-
-* 🛡️ **SICHER HEIMBRINGEN**
-  > Vollautomatische Rückkehr zum Startplatz bei Raumlage- oder Sichtverlust.
-
-* 🦅 **UNTERSTÜTZEN (FOKUS)**
-  > Maximale Entlastung des Piloten durch die Thermik-Kreisflug-Automatik.
-
-* ⚖️ **STABILISIEREN**
-  > Unsichtbarer Ausgleich von Windböen und Turbulenzen im Flugbetrieb.
-
-* 🕹️ **MANUELLER MODUS (RÜCKFALLEBENE)**
-  > Volle manuelle Kontrolle auf Schalterdruck. Der Gyro wird komplett 
-  > deaktiviert, sodass der Segler direkt, ungefiltert und klassisch fliegt.
-
----
-
-<img src="Speedybeemini.jpg" width="1000" alt="OutBoxing">
-
-
-
-# 🛰️ Modell-Setup: Multiplex Heron (2,4m E-Segler)
-
 ## 💡 Die Besonderheiten und Flugfunktionen im Überblick
 
 Für den Flugbetrieb wurden im iNAV-System folgende aerodynamische Schutzfunktionen 
