@@ -62,7 +62,7 @@ Servos wird das System zum unsichtbaren Co-Piloten und zur Lebensversicherung:
 6. **Startunterstützung beim Wurf:** Der FC erkennt den Wurf und steuert das
    Modell auf eine stabile Flughöhe bis der Pilot übernimmt.
 7. **Akustische Warnmeldungen:** Der FC erkennt technische Defeckte und
-   nicht sichere Startparameter wie Unterspannung, fehlende GPS synchronisation
+   nicht sichere Startparameter wie Unterspannung, fehlende GPS Synchronisation
    und meldet das über akustisches Beepen.
    
 ---
