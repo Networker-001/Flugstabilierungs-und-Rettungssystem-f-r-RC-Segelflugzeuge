@@ -55,14 +55,14 @@ gewährleisten:
    flugbereit zu schalten.
 
 2. **Gas hochziehen:** Schieben Sie den Gasknüppel an Ihrer Fernsteuerung nach 
-   vorne. Der Motor läuft zunächst mit einer niedrigen Sicherheitsdrehzahl an.
+   vorne. Der Motor läuft zunächst mit der eingestellten Vorstartdrehzahl (70%) an.
 
 3. **Abwurf:** Werfen Sie das Segelflugzeug mit einem kräftigen, geraden Wurf 
    gegen den Wind aus der Hand.
 
 4. **Autonomes Steigen:** Die iNAV-Software erkennt den Abwurf, und der Motor 
-   erhöht die Leistung vollautomatisch auf die eingestellte Startleistung von 
-   70%. Der Autopilot bringt das Modell in einen stabilisierten, steilen 
+   erhöht die Leistung vollautomatisch auf die eingestellte Startleistung.
+   Der Autopilot bringt das Modell in einen stabilisierten, steilen 
    Höhengewinn und hält Kurs und Steigwinkel autonom, bis Sie aktiv eingreifen.
 
 ### Phase 4: Thermik-Aktivierung und Loiter-Anpassung
