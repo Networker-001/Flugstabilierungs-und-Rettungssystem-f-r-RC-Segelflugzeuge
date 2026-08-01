@@ -52,15 +52,16 @@ automatischer Stabilisierung, um ein sicheres Abheben aus der Hand zu
 gewährleisten:
 
 1. **Scharfschalten (Arming):** Aktivieren Sie Ihren Arm-Schalter, um das Modell 
-   flugbereit zu schalten. Sie erhalten eine akustische Rückmeldung.
+   flugbereit zu schalten. Die GPS Position wird als Home Position im System gespeichert.
+   Sie erhalten eine akustische Rückmeldung.
 
-2. **Gas hochziehen:** Schieben Sie den Gasknüppel an Ihrer Fernsteuerung nach 
+3. **Gas hochziehen:** Schieben Sie den Gasknüppel an Ihrer Fernsteuerung nach 
    vorne. Der Motor läuft zunächst mit der eingestellten Vorstartdrehzahl (70%) an.
 
-3. **Abwurf:** Werfen Sie das Segelflugzeug mit einem kräftigen, geraden Wurf 
+4. **Abwurf:** Werfen Sie das Segelflugzeug mit einem kräftigen, geraden Wurf 
    gegen den Wind aus der Hand.
 
-4. **Autonomes Steigen:** Die iNAV-Software erkennt den Abwurf, und der Motor 
+5. **Autonomes Steigen:** Die iNAV-Software erkennt den Abwurf, und der Motor 
    erhöht die Leistung vollautomatisch auf die eingestellte Startleistung.
    Der Autopilot bringt das Modell in einen stabilisierten, steilen 
    Höhengewinn und hält Kurs und Steigwinkel autonom, bis Sie aktiv eingreifen.
