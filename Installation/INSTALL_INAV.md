@@ -88,7 +88,33 @@ wird die Einstellungs-Datei (CLI-Dump) aus dem jeweiligen Modellordner geladen:
 5. Der Flight Controller brennt die Konfiguration in den Flash-Speicher und 
    startet automatisch neu. Das Modell ist nun grundlegend eingerichtet.
 
-### 3. Servomitten und Ausschläge einmessen (Outputs):
+### 3. Senderprotokoll & Empfänger-Typ kontrollieren:
+
+Das geladene Profil ist werkseitig bereits steckerfertig für Ihren FrSky-
+Empfänger vordefiniert. Kontrollieren Sie im linken Menü unter **`Receiver`**, 
+ob der Typ auf **`Serial`** und der Provider starr auf **`SBUS`** stehen. 
+
+Sollten Sie ein anderes Funksystem nutzen, suchen Sie Ihr Protokoll in der 
+folgenden Tabelle und stellen Sie den zugehörigen Anschluss/UART manuell ein:
+
+| Ihr Funksystem / Protokoll | Physischer Steuer-Anschluss | Telemetrie-Rückkanal (Tele Out)      | iNAV Ports-Menü |
+| :---                       | :---                        | :---                                 | :---            |
+| **SBUS** (FrSky / Futaba)  | Großer SBUS-Pin (Leiste 1)  | **Seitlicher Stecker (Port 4)**       | **UART 2** (Steuerung) / **SOFTSERIAL 1** (Tele Out) |
+| **CRSF / ELRS** (ELRS / TBS)| Separater 4-Pin-Stecker     | *Automatisch integriert (Kein Kabel)* | **UART 1** (Kombiniert) |
+| **IBUS** (FlySky)          | Separater 4-Pin-Stecker     | *Automatisch integriert (Kein Kabel)* | **UART 1** (Kombiniert) |
+| **SUMD** (Graupner HoTT)   | Separater 4-Pin-Stecker     | *Automatisch integriert (Kein Kabel)* | **UART 1** (Kombiniert) |
+| **SRXL2** (Spektrum)       | Separater 4-Pin-Stecker     | *Automatisch integriert (Kein Kabel)* | **UART 1** (Kombiniert) |
+| **FPORT** (FrSky optional) | Separater 4-Pin-Stecker     | *Automatisch integriert (Kein Kabel)* | **UART 1** (Kombiniert) |
+
+*Hinweis zur manuellen Konfiguration:* Schalten Sie im Menü **`Ports`** den 
+ermittelten UART in der Spalte *Serial RX* aktiv. Wählen Sie danach im Menü 
+**`Receiver`** den Typ *Serial* und Ihr passendes Protokoll aus.
+
+Schalten Sie Ihre Fernsteuerung ein. Die farbigen Balken im Menü `Receiver` 
+müssen nun synchron reagieren. Falls Sie Änderungen vornehmen mussten, klicken 
+Sie unten rechts starr auf **`Save and Reboot`**.
+
+### 4. Servomitten und Ausschläge einmessen (Outputs):
 
 Nach dem Neustart müssen die mechanischen Mittenpositionen und die maximalen 
 Ruderwege der Servos kontrolliert und exakt auf Ihr Modell angepasst werden:
@@ -115,4 +141,3 @@ Ruderwege der Servos kontrolliert und exakt auf Ihr Modell angepasst werden:
 5. **Speichern:** Klicken Sie unten rechts zwingend auf den roten Button 
    **`Save`**. Erst durch diesen Klick werden die geänderten Werte dauerhaft 
    auf dem Flight Controller gesichert.
-
