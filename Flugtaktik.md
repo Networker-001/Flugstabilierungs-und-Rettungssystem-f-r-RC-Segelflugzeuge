@@ -52,7 +52,7 @@ automatischer Stabilisierung, um ein sicheres Abheben aus der Hand zu
 gewährleisten:
 
 1. **Scharfschalten (Arming):** Aktivieren Sie Ihren Arm-Schalter, um das Modell 
-   flugbereit zu schalten.
+   flugbereit zu schalten. Sie erhalten eine akustische Rückmeldung.
 
 2. **Gas hochziehen:** Schieben Sie den Gasknüppel an Ihrer Fernsteuerung nach 
    vorne. Der Motor läuft zunächst mit der eingestellten Vorstartdrehzahl (70%) an.
