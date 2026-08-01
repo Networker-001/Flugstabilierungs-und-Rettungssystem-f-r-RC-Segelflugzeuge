@@ -1,5 +1,94 @@
 ---
 
+## Praxis-Leitfaden: Vom Start bis zum Thermikflug
+
+Dieser chronologische Ablauf beschreibt die korrekte Handhabung des Systems 
+am Flugplatz, um alle automatischen Sicherheits- und Assistenzfunktionen 
+fehlerfrei zu nutzen.
+
+### Phase 1: Einschalten und GPS-Fix abwarten
+
+1. **Freie Sicht nach oben:** Platzieren Sie das Modell für diesen Vorgang 
+   zwingend draußen auf dem Flugfeld mit freier Sicht zum Himmel. Führen Sie 
+   diesen Schritt niemals zu Hause oder in geschlossenen Räumen durch, da sonst 
+   keine fehlerfreie Satellitenverbindung aufgebaut werden kann.
+
+2. **Einschalten:** Stellen Sie das Segelflugzeug absolut flach und ruhig auf 
+   den Boden. Schließen Sie den Flugakku an. Bewegen Sie das Modell während des 
+   Boot-Vorgangs nicht, damit die Kreisel-Sensoren sauber kalibrieren können.
+
+3. **GPS-Fix abwarten:** Das System sucht nun nach Satelliten. Solange nicht 
+   genügend Satelliten erfasst sind, blockiert die iNAV-Software aus 
+   Sicherheitsgründen das Scharfschalten des Motors (Arming-Sperre).
+
+4. **Bestätigung & Freigabe:** Sobald der GPS-Lock fehlerfrei steht und Sie den 
+   Arming-Schalter betätigen, bestätigt das System die vollständige Freigabe 
+   über eine akustische Tonfolge (Piep-Muster). Erst nach dieser Bestätigung 
+   kann das Modell sicher geflogen werden.
+
+### Phase 2: Alle Funktionen im Pre-Flight-Test prüfen
+
+Führen Sie vor dem Start zwingend die vollständige mechanische und elektronische 
+Gegenprobe aller Funktionen am Boden durch:
+
+1. **Manueller Flugmodus:** Schalten Sie in den ungestörten manuellen Modus 
+   (`MANUAL`). Bewegen Sie alle Knüppel am Sender und kontrollieren Sie, ob 
+   Höhen-, Seiten- und Querruder exakt und in die richtige Richtung laufen.
+
+2. **Stabilisierter ACRO-Modus:** Schalten Sie in den stabilisierten Modus 
+   (`ACRO`). Heben Sie das Modell an und kippen Sie es um die Achsen. Die 
+   Ruder müssen den Bewegungen automatisch kraftvoll entgegensteuern, um die 
+   Fluglage waagerecht auszugleichen.
+
+3. **Klappen- & Butterflytest:** Schalten Sie Ihre Flugphasen am Klappenschalter 
+   durch. In der Thermik-Stellung müssen sich alle Klappen minimal nach oben 
+   wölben. In der Lande-Stellung (Butterfly) müssen die Wölbklappen weit nach 
+   unten und die Querruder nach oben fahren, während das Höhenruder automatisch 
+   **10% Tiefenruder** beimischt.
+
+### Phase 3: Triebwerksstart und Wurfunterstützung (Handstart)
+
+Der Start des Modells erfolgt mit kontrollierter Triebwerksleistung und 
+automatischer Stabilisierung, um ein sicheres Abheben aus der Hand zu 
+gewährleisten:
+
+1. **Scharfschalten (Arming):** Aktivieren Sie Ihren Arm-Schalter, um das Modell 
+   flugbereit zu schalten.
+
+2. **Gas hochziehen:** Schieben Sie den Gasknüppel an Ihrer Fernsteuerung nach 
+   vorne. Der Motor läuft zunächst mit einer niedrigen Sicherheitsdrehzahl an.
+
+3. **Abwurf:** Werfen Sie das Segelflugzeug mit einem kräftigen, geraden Wurf 
+   gegen den Wind aus der Hand.
+
+4. **Autonomes Steigen:** Die iNAV-Software erkennt den Abwurf, und der Motor 
+   erhöht die Leistung vollautomatisch auf die eingestellte Startleistung von 
+   70%. Der Autopilot bringt das Modell in einen stabilisierten, steilen 
+   Höhengewinn und hält Kurs und Steigwinkel autonom, bis Sie aktiv eingreifen.
+
+### Phase 4: Thermik-Aktivierung und Loiter-Anpassung
+
+Sobald die Ausgangshöhe erreicht ist und Sie das Modell in ein Aufwindfeld 
+gesteuert haben, übernimmt der Assistent das Zentrieren im Bart:
+
+1. **Thermik erkennen:** Das integrierte akustische Vario an Ihrem Sender 
+   signalisiert über steigende Töne anhaltenden Aufwind.
+
+2. **Weiterfliegen:** Schalten Sie den Autopiloten noch nicht ein. Fliegen Sie 
+   bewusst noch ein kurzes Stück weiter geradeaus in das Aufwindfeld hinein, 
+   um tiefer in den Thermikbart vorzudringen.
+
+3. **Radius verkleinern:** Verkleinern Sie bereits jetzt über Ihren Live-Regler 
+   an der Fernsteuerung im Vorfeld stufenlos den Kreisradius, um das Modell auf 
+   einen engen Kreisflug vorzubereiten.
+
+4. **Loiter scharfschalten:** Aktivieren Sie erst jetzt den Kreisflug-Modus 
+   (**NAV LOITER**). Der Autopilot übernimmt das Steuer, fliegt das Modell 
+   exakt im voreingestellten, engen Radius und steuert das Seitenruder sauber 
+   mit, um ein Abkippen zu verhindern. Das System erlaubt im Loiter ein 
+   kontinuierliches Steigen durch reine Thermikkraft.
+---
+
 ## 🦅 Kontrollierter Abstieg aus großer Höhe
 
 Wenn das Segelflugzeug in starker Thermik große Höhen erreicht, stehen dem 
