@@ -83,7 +83,7 @@ Querruder) für die jeweilige Flugphase:
 ## 3. Kanalbelegung & Schalterfunktionen (Fernsteuerung)
 
 Die folgende Übersicht zeigt die Zuordnung der Kanäle, der physischen Geber 
-an Ihrer RadioMaster TX16S und der zugehörigen iNAV-Flugfunktionen:
+an Ihrer RadioMaster TX16S und der zugehörigen iNAV-Flugfunktionen, sowie die Ausschläge
 
 | Kanal   | Schalter / Geber  | Funktion im Flugbetrieb                            | Min Wert | Mitte |Max Wert |
 | :---    | :---              | :---                                               | :---  | :---  |:---  |
