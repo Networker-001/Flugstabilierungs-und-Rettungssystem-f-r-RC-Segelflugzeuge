@@ -6,6 +6,10 @@ Einstellungs-Setups über die Software.
 
 ---
 
+<img src="Speedybeemini.jpg" width="1000" alt="OutBoxing">
+
+
+
 ## 🔧 1. Mechanischer Aufbau des Flight Controllers
 
 Der SpeedyBee F405 Wing wird als Platinen-Sandwich geliefert und muss vor dem 
