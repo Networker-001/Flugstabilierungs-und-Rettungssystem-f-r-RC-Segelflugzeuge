@@ -99,6 +99,17 @@ zu gestalten. Hier die verfügbaren Anleitungen:
 
 ---
 
+## 📖 Ziel dieser Seite
+
+Ziel ist es, eine Plattform für die Segler-spezifischen Controller Einstellungen zu bieten.
+Es sollen verschiedene Mustervorlagen entstehen.
+
+Ein Informationsaustausch ist über RC-Network geplant.
+
+Viel Spass beim Lesen und Nachbauen.
+
+---
+
 ## 🔄 Segler, Fernbedienung, optionale Telemetrieanzeige mit Nackenstütze
 
 ![Gesamtsystem / Beeper](Bilder/Gesamtsystem.jpg)
