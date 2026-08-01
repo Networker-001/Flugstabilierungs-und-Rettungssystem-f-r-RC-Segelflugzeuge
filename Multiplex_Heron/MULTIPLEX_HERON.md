@@ -96,7 +96,7 @@ an Ihrer RadioMaster TX16S und der zugehörigen iNAV-Flugfunktionen:
 
 ---
 
-## 📻 4. Anschluss von Empfänger, GPS und Telemetrie
+## 4. Anschluss von Empfänger, GPS und Telemetrie
 
 Die Funk- und Navigationskomponenten werden wie folgt am SpeedyBee F405 Wing 
 verkabelt und betrieben:
@@ -122,7 +122,7 @@ verkabelt und betrieben:
 
 ---
 
-## 🔌 5. Physische Belegung der Ausgänge (Stiftleisten)
+## 5. Physische Belegung der Ausgänge (Stiftleisten)
 
 Verkabeln Sie die Komponenten Ihres Multiplex Heron exakt nach diesem Schema an 
 den Stiftleisten des SpeedyBee F405 Wing:
@@ -144,7 +144,7 @@ den Stiftleisten des SpeedyBee F405 Wing:
 
 ---
 
-## 💻 6. Einspielen der EdgeTX-Senderkonfiguration (`model16.yml`)
+## 6. Einspielen der EdgeTX-Senderkonfiguration (`model16.yml`)
 
 Im Ordner dieses Modells befindet sich die fertige Modelldatei **`model16.yml`** 
 für Ihre RadioMaster TX16S. Diese Datei enthält bereits die gesamte Schalter- 
@@ -166,7 +166,7 @@ und Mixerbelegung für die Kanäle 1 bis 15.
 6. **Trennen:** Trennen Sie die USB-Verbindung sicher. Das Modell steht nun 
    in Ihrer Modellauswahl auf dem gewählten Platz bereit.
 
-## 🛒 7. Einkaufsliste & Benötigte Hardware
+## 7. Einkaufsliste & Benötigte Hardware
 
 Für den Aufbau dieses Sicherheits- und Assistenzsystems wurden folgende 
 Hardware-Komponenten erfolgreich in der Praxis getestet und freigegeben:
