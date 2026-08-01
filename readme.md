@@ -81,13 +81,13 @@ Der geringe Aufwand in der Praxis entsteht durch fertige Einstellungs-Setups:
   
 * **Geringe Restanpassung:** Sie müssen das Setup lediglich an drei Punkten 
   auf Ihr individuelles Modell anpassen:
-  1. Das genutzte Senderprotokoll einstellen  
+  Das genutzte Senderprotokoll einstellen  
      *(CRSF, SBUS, IBUS, FPORT, SRXL2, DSM2, DSMX, GHST, MAVLINK, JETIEXBUS)*  
      *(Kompatibel mit TBS, ExpressLRS, FrSky, FlySky, Spektrum, Futaba, Graupner)*
      
-  2. Die Ruderlagen (Mitte) kontrollieren, damit die Klappen gerade stehen.
+  Die Ruderlagen (Mitte) kontrollieren, damit die Klappen gerade stehen.
   
-  3. Die maximalen Ruderausschläge und Richtungen an Ihre Mechanik angleichen.
+  Die maximalen Ruderausschläge und Richtungen an Ihre Mechanik angleichen.
 
 ---
 
