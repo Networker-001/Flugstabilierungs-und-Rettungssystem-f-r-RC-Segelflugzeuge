@@ -119,7 +119,8 @@ Sie unten rechts starr auf **`Save and Reboot`**.
 ### 4. Servomitten, Ausschläge und Drehrichtungen einmessen (Outputs):
 
 Nach dem Neustart müssen die mechanischen Mittenpositionen, die maximalen 
-Ruderwege sowie die korrekten Drehrichtungen der Servos angepasst werden:
+Ruderwege sowie die korrekten Drehrichtungen der Servos direkt auf dem 
+Flight Controller angepasst werden:
 
 1. Navigieren Sie im iNAV Configurator in das linke Menü auf den Reiter 
    **`Outputs`** (Ausgänge).
@@ -140,16 +141,20 @@ Ruderwege sowie die korrekten Drehrichtungen der Servos angepasst werden:
    dass die Ruder mechanisch nicht auf Anschlag laufen, die Scharniere nicht 
    überlastet werden und der Ausschlag symmetrisch ist.
 
-5. **Drehrichtung kontrollieren (Direction):** Prüfen Sie die Ruderlaufrichtung 
-   sowohl für Ihre Steuerknüppel als auch für die automatische Gyro-Korrektur:
-   * **Knüppel-Test:** Bewegen Sie die Knüppel am Sender. Läuft ein Ruder in 
-     die falsche Richtung, invertieren Sie die Richtung in der Spalte 
-     **`Direction`** beim betroffenen Servo von `Normal` auf **`Reversed`**.
-   * **Autopilot-Gegenprobe:** Heben Sie das Modell auf der Werkbank an und 
-     bewegen Sie es von Hand (Nase runter/hoch, Tragfläche links/rechts 
-     kippen). Die Flugsteuerung muss den Servos *immer* automatisch so 
-     entgegensteuern, dass das Modell sich wieder in die Waagerechte bringen 
-     würde (z. B. Nase runter ➔ Höhenruder schlägt automatisch nach oben aus).
+5. **Drehrichtung am SpeedyBee einstellen (Direction):** Die Laufrichtung der 
+   Servos muss starr auf dem Flight Controller angepasst werden, damit 
+   Steuerbefehle und Autopilot in die exakt gleiche, richtige Richtung arbeiten:
+   * **Kontrolle:** Schalten Sie in den stabilisierten Modus und bewegen Sie 
+     das Modell von Hand (Nase runter/hoch). Schlägt das Höhenruder falsch 
+     herum aus (z. B. nach unten statt nach oben), muss die Drehrichtung 
+     direkt auf dem Board invertiert werden.
+   * **Umdrehen:** Wechseln Sie in der Zeile des betroffenen Servos in die 
+     Spalte **`Direction`** und stellen Sie den Wert von `Normal` starr auf 
+     **`Reversed`** um. Der SpeedyBee dreht das Signal daraufhin augenblicklich 
+     sowohl für Ihre Knüppel als auch für die Gyro-Korrektur um.
+   * **Gegenprobe:** Wiederholen Sie den Test für alle Ruder (Querruder, Höhe, 
+     Seite), bis jede automatische Korrektur das Modell physikalisch korrekt 
+     in die Waagerechte steuern würde.
 
 6. **Speichern:** Klicken Sie unten rechts zwingend auf den roten Button 
    **`Save`**. Erst durch diesen Klick werden die geänderten Werte und 
