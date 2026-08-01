@@ -10,7 +10,7 @@ Einstellungs-Setups über die Software.
 
 
 
-## 🔧 1. Mechanischer Aufbau des Flight Controllers
+## 1. Mechanischer Aufbau des Flight Controllers
 
 Der SpeedyBee F405 Wing wird als Platinen-Sandwich geliefert und muss vor dem 
 Einbau im Rumpf mechanisch vorbereitet werden:
