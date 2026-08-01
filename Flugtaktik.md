@@ -99,7 +99,7 @@ Modell kontrolliert nach unten zu führen.
 Diese Methode eignet sich, wenn das Modell während des Abstiegs weiterhin 
 autonom stabilisiert und auf Kurs zum Startplatz gehalten werden soll:
 * **Ablauf:** Schalten Sie den RTH-Modus (**CH 7**) aktiv. Drücken Sie das 
-  Tiefenruder am Sender gezielt nach vorne.
+  Tiefenruder am Sender nach vorne.
 * **Wirkung:** Das System senkt kontrolliert die Nase und leitet einen sicheren 
   Sinkflug ein. Die Software schützt das Modell automatisch vor zu hoher Fahrt 
   und mechanischer Überlastung.
