@@ -114,8 +114,8 @@ Viel Spass beim Lesen und Nachbauen.
 
 ![Gesamtsystem / Beeper](Bilder/Gesamtsystem.jpg)
 
-Nicht zwingend notwendig, aber ein Blick wie weit die Reise gehen kann
-über die [Bluetooth Bridge](../Bluetooth_Bridge) werden die 
+Nicht zwingend notwendig, aber ein Blick wie weit die Reise gehen kann:
+Über die [Bluetooth Bridge](../Bluetooth_Bridge) werden die 
 autonomen iNAV-Fluglagendaten und der Thermik-Status live per Funk an das 
 hauseigene Teleview-Display an der Fernsteuerung oder an die offizielle 
 [Telemetry Viewer App](https://google.com) übertragen.
