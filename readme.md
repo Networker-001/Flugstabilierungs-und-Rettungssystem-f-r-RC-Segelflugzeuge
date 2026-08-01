@@ -81,6 +81,7 @@ Der geringe Aufwand in der Praxis entsteht durch fertige Einstellungs-Setups:
   
 * **Geringe Restanpassung:** Sie müssen das Setup lediglich an drei Punkten 
   auf Ihr individuelles Modell anpassen:
+  
   Das genutzte Senderprotokoll einstellen  
      *(CRSF, SBUS, IBUS, FPORT, SRXL2, DSM2, DSMX, GHST, MAVLINK, JETIEXBUS)*  
      *(Kompatibel mit TBS, ExpressLRS, FrSky, FlySky, Spektrum, Futaba, Graupner)*
