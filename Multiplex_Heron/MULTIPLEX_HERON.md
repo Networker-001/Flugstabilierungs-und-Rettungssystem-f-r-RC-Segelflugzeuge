@@ -146,6 +146,7 @@ den Stiftleisten des SpeedyBee F405 Wing:
   Steckbuchse in Flugrichtung hinten
   Schrift nach unten
 
+---
 
 ### Ansicht des Senders mit INAV Widget:
 
