@@ -5,7 +5,7 @@
 
 <img src="Einbau.jpg" width="1000" alt="Einbau im Heron">
 
-*Physischer Anschluss des FrSky-Empfängers, beeper Moduls und des GPS-Moduls am Flight Controller leider im eingebauten Zustand.*
+*Physischer Anschluss des FrSky-Empfängers, beeper Moduls und des GPS-Moduls am Flight Controller im eingebauten Zustand.*
 
 ## Die Besonderheiten und Flugfunktionen im Überblick
 
@@ -136,7 +136,18 @@ den Stiftleisten des SpeedyBee F405 Wing:
 * **`Stiftleiste 7`:** Querruder Links ➔ (Standard iNAV-Flächenmischer)
 * **`Stiftleiste 8`:** Querruder Rechts ➔ (Standard iNAV-Flächenmischer)
 
-### 📸 Ansicht des Senders mit INAV Widget:
+## Einbaurichtungen
+
+* **Speedybee Wing Mini**
+  Stiftleisten in Flugrichtung nach hinten
+  Beschriftung SpeedyBee oben
+
+* **GPS Empfänger**
+  Steckbuchse in Flugrichtung hinten
+  Schrift nach unten
+
+
+### Ansicht des Senders mit INAV Widget:
 
 <img src="TX16s.jpg" width="500" alt="RadioMaster TX16s">
 
