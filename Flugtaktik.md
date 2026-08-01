@@ -1,6 +1,6 @@
 ---
 
-## 🦅 Flugtaktik: Kontrollierter Abstieg aus großer Höhe
+## 🦅 Kontrollierter Abstieg aus großer Höhe
 
 Wenn das Segelflugzeug in starker Thermik große Höhen erreicht, stehen dem 
 Piloten zwei materialschonende und sichere Methoden zur Verfügung, um das 
