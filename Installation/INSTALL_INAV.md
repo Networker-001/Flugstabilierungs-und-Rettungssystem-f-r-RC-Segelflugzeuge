@@ -4,6 +4,8 @@ Diese Anleitung beschreibt den mechanischen Zusammenbau des SpeedyBee F405 Wing
 Flight Controllers, den Empfänger-Anschluss sowie das Einlesen des fertigen 
 Einstellungs-Setups über die Software.
 
+
+<img src="SppedybeePorts.jpg" width="600" alt="Anschlüsse">
 ---
 
 ## 🔧 1. Mechanischer Aufbau des Flight Controllers
