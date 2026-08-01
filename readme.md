@@ -65,6 +65,7 @@ Servos wird das System zum unsichtbaren Co-Piloten und zur Lebensversicherung:
    unsichere Startparameter (wie Unterspannung oder fehlende GPS-Synchronisation) 
    und meldet diese über ein akustisches Beepen.
 8. **Einfache Konfiguration auf dem Platz:** Konfiguration durch Mobiltelefon oder PC
+9. **Automatische Trimmen:** Trimmung auf Schalter
 ---
 
 ## Minimaler Aufwand durch vordefinierte Setups
