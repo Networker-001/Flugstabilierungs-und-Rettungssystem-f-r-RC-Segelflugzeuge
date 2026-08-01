@@ -119,8 +119,8 @@ Viel Spaß beim Lesen und Nachbauen!
 
 *Nicht zwingend notwendig, aber ein Blick wie weit die Reise gehen kann:*  
 Über die [Bluetooth Bridge](https://github.com/Networker-001/TX16s-Bluetooth-Bridge) 
-werden die autonomen iNAV-Fluglagendaten und der Thermik-Status live per Funk 
-an das Teleview-Display an der Fernsteuerung oder an die kartenbasierte 
+werden die iNAV-Fluglagendaten und der Thermik-Status per Bluetooth
+an das Teleview-Display oder an die kartenbasierte 
 [Telemetry Viewer App](https://play.google.com/store/apps/details?id=crazydude.com.telemetry&hl=de) 
 übertragen.
 
