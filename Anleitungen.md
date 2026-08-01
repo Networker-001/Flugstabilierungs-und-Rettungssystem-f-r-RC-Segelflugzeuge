@@ -1,4 +1,4 @@
-## 📖 Projekt-Dokumentation & Modell-Setups
+## Projekt-Dokumentation & Modell-Setups
 
 Dieses Projekt ist modular aufgebaut, um den Einstieg so einfach wie möglich 
 zu gestalten. Hier die verfügbaren Anleitungen:
