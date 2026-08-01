@@ -1,4 +1,4 @@
-# 🛰️ Flugstabilierungs- und Rettungssystem für RC Segelflugzeuge
+# Flugstabilierungs- und Rettungssystem für RC Segelflugzeuge
 ### (Autonomous Stabilization, Return-to-Home & Thermic Assist for Gliders)
 
 Dieses Open-Source-Projekt realisiert ein autonomes Sicherheits- und 
@@ -11,7 +11,7 @@ bisher keine Berührungspunkte mit Multirotor- oder Drohnentechnologien hatten.
 
 ---
 
-## 📸 Mechanischer Aufbau & Ansichten
+## Mechanischer Aufbau & Ansichten
 
 ![CorewingFlugcontroller mit GPS Empfänger und usb / Beeper](Bilder/Controller.jpg)
 
@@ -20,7 +20,7 @@ Kabel zum Akku, das Kabel zum Regler fehlt noch.
 
 ---
 
-## 🚨 Die realen Risiken beim Segelfliegen
+## Die realen Risiken beim Segelfliegen
 
 Klassische Segelflugmodelle repräsentieren oft einen sehr hohen finanziellen 
 und zeitlichen Wert. Im Flugbetrieb kommt es regelmäßig zu Stresssituationen:
@@ -40,7 +40,7 @@ und zeitlichen Wert. Im Flugbetrieb kommt es regelmäßig zu Stresssituationen:
 
 ---
 
-## 💡 Der Lösungsansatz: Die Flugsteuerung als Sicherheits-System
+## Der Lösungsansatz: Die Flugsteuerung als Sicherheits-System
 
 Durch den Einbau einer kompakten Wing-Flugsteuerung zwischen Empfänger und 
 Servos wird das System zum unsichtbaren Co-Piloten und zur Lebensversicherung:
@@ -67,7 +67,7 @@ Servos wird das System zum unsichtbaren Co-Piloten und zur Lebensversicherung:
    
 ---
 
-## 💻 Minimaler Aufwand durch vordefinierte Setups
+## Minimaler Aufwand durch vordefinierte Setups
 
 Die manuelle Einarbeitung, Konfiguration und das anschließende Testfliegen von
 iNAV auf Flächenmodellen ist zeitaufwendig und für viele Piloten abschreckend. 
@@ -90,7 +90,7 @@ Der geringe Aufwand in der Praxis entsteht durch fertige Einstellungs-Setups:
 
 ---
 
-## 📖 Projekt-Dokumentation & Modell-Setups
+## Projekt-Dokumentation & Modell-Setups
 
 Dieses Projekt ist modular aufgebaut, um den Einstieg so einfach wie möglich 
 zu gestalten. 
@@ -99,7 +99,7 @@ zu gestalten.
 
 ---
 
-## 📖 Ziel dieser Seite
+## Ziel dieser Seite
 
 Ziel ist es, eine Plattform für die Segler-spezifischen Controller Einstellungen zu bieten.
 Es sollen verschiedene Mustervorlagen entstehen.
@@ -110,7 +110,7 @@ Viel Spass beim Lesen und Nachbauen.
 
 ---
 
-## 🔄 Segler, Fernbedienung, optionale Telemetrieanzeige mit Nackenstütze
+## Segler, Fernbedienung, optionale Telemetrieanzeige mit Nackenstütze
 
 ![Gesamtsystem / Beeper](Bilder/Gesamtsystem.jpg)
 
