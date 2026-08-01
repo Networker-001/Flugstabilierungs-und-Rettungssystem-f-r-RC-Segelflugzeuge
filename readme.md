@@ -80,9 +80,11 @@ Der geringe Aufwand in der Praxis entsteht durch fertige Einstellungs-Setups:
   Mischer- und Stabilisierungslogik ist darin bereits fertig programmiert.
 * **Geringe Restanpassung:** Sie müssen das Setup lediglich an drei Punkten 
   auf Ihr individuelles Modell anpassen:
-  1. Das genutzte Senderprotokoll einstellen (z. B. ELRS, FrSky, Crossfire).
-  2. Die Ruderlagen (Mitte) kontrollieren, damit die Klappen gerade stehen.
-  3. Die maximalen Ruderausschläge an Ihre Mechanik angleichen.
+  1. Das genutzte Senderprotokoll einstellen
+     (CRSF, SBUS, IBUS, FPORT, SRXL2, DSM2, DSMX, GHST, MAVLINK, JETIEXBUS, SPEKTRUM1024, SPEKTRUM2048)
+     (Team BlackSheep, ExpressLRS, FrSky, FlySky, Spektrum, Futaba, Graupner, ImmersionRC, Jeti, RadioMaster)
+  3. Die Ruderlagen (Mitte) kontrollieren, damit die Klappen gerade stehen.
+  4. Die maximalen Ruderausschläge an Ihre Mechanik angleichen.
 
 Die vollständige Anleitung zur grundlegenden Hardware-Verkabelung, dem Einbau 
 des Empfängers und der iNAV-Erstinstallation finden Sie in dieser Anleitung:
