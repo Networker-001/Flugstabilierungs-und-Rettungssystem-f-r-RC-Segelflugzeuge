@@ -4,8 +4,6 @@ Diese Anleitung beschreibt den mechanischen Zusammenbau des SpeedyBee F405 Wing
 Flight Controllers, den Empfänger-Anschluss sowie das Einlesen des fertigen 
 Einstellungs-Setups über die Software.
 
-
-<img src="SpeedyBeePorts.jpg" width="600" alt="Anschlüsse">
 ---
 
 ## 🔧 1. Mechanischer Aufbau des Flight Controllers
@@ -95,6 +93,8 @@ wird die Einstellungs-Datei (CLI-Dump) aus dem jeweiligen Modellordner geladen:
 Das geladene Profil ist werkseitig bereits steckerfertig für Ihren FrSky-
 Empfänger vordefiniert. Kontrollieren Sie im linken Menü unter **`Receiver`**, 
 ob der Typ auf **`Serial`** und der Provider starr auf **`SBUS`** stehen. 
+
+<img src="SpeedyBeePorts.jpg" width="600" alt="Anschlüsse">
 
 Sollten Sie ein anderes Funksystem nutzen, suchen Sie Ihr Protokoll in der 
 folgenden Tabelle und stellen Sie den zugehörigen Anschluss/UART manuell ein:
