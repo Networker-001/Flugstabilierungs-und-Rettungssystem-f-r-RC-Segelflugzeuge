@@ -64,8 +64,8 @@ Servos wird das System zum unsichtbaren Co-Piloten und zur Lebensversicherung:
 7. **Akustische Warnmeldungen:** Der FC erkennt technische Defekte sowie 
    unsichere Startparameter (wie Unterspannung oder fehlende GPS-Synchronisation) 
    und meldet diese über ein akustisches Beepen.
-8. **Einfache Konfiguration auf dem Platz:** Konfiguration durch Mobiltelefon oder PC
-9. **Automatische Trimmen:** Trimmung auf Schalter
+8. **Einfache Konfiguration auf dem Platz:** Konfiguration durch Mobiltelefon oder PC.
+9. **Automatische Trimmen:** Trimmung im Flug bei Bedarf oder dauerhaft.
 ---
 
 ## Minimaler Aufwand durch vordefinierte Setups
