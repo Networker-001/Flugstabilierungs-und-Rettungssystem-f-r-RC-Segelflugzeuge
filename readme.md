@@ -114,8 +114,8 @@ Viel Spass beim Lesen und Nachbauen.
 
 ![Gesamtsystem / Beeper](Bilder/Gesamtsystem.jpg)
 
-Dieses Projekt entfaltet sein volles Potenzial in Kombination mit unserem 
-zweiten Repository: Über die [Bluetooth Bridge](../Bluetooth_Bridge) werden die 
+Nicht zwingend notwendig, aber ein Blick wie weit die Reise gehen kann
+über die [Bluetooth Bridge](../Bluetooth_Bridge) werden die 
 autonomen iNAV-Fluglagendaten und der Thermik-Status live per Funk an das 
 hauseigene Teleview-Display an der Fernsteuerung oder an die offizielle 
 [Telemetry Viewer App](https://google.com) übertragen.
