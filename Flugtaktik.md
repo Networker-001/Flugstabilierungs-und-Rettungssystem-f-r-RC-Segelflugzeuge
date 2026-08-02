@@ -67,11 +67,36 @@ gewährleisten:
    Höhengewinn und hält Kurs und Steigwinkel autonom, bis Sie aktiv eingreifen.
 
 ---
+### Phase 4: Der Normalflug (Manuell / Stabilisiert / Segelflug)
+
+Nach dem Start erfolgt der normale Flugbetrieb über den dreistufigen 
+Flugmodi-Schalter. Dieser Schalter schaltet direkt zwischen den drei 
+grundlegenden Flugzuständen des Seglers um:
+
+1. **Manueller Flugmodus (Stufe Oben):** In dieser Stellung ist die gesamte 
+   Elektronik und Stabilisierung des Flight Controllers deaktiviert. Die 
+   Knüppelbefehle Ihrer Fernsteuerung gehen direkt an die Servos. Das Modell 
+   fliegt sich wie ein klassischer, ungefilterter Segler. Wichtig für den 
+   Reichweitentest oder als absolute Rückfallebene bei Sensorproblemen.
+
+2. **Stabilisierter ACRO-Modus (Stufe Mitte):** Der Gyro ist aktiv und gleicht 
+   Windböen sowie Turbulenzen im Hintergrund automatisch aus, um ein absolut 
+   ruhiges Flugbild zu erzwingen. Das Modell besitzt hierbei keine automatische 
+   Rückkehr in die Waagerechte (kein Self-Leveling). Lässt man die Knüppel los, 
+   behält der Segler starr seine aktuelle Flugbahn und Schräglage bei.
+
+3. **Segelflug-Modus / Soaring (Stufe Unten):** In dieser Stellung wird der 
+   aktivierte ACRO-Modus um den autonomen Thermik-Kreisassistenten und den 
+   automatischen Turn-Assist erweitert. Die Software steuert das Seitenruder 
+   in Kurven automatisch sauber mit, um ein Schieben des Modells zu verhindern. 
+   Zudem greift hier das Soaring-Feature: Sobald autonome Navigationsphasen 
+   eingeleitet werden, schaltet das System den Motor für ein materialschonendes 
+   Gleiten im Aufwind komplett ab.
+
 ### Phase 5: Flug-Eintrimmung über die Autotrimm-Funktion (FW_AUTOTRIM)
 
-Sollte das Segelflugzeug nach dem Erstflug oder nach mechanischen Änderungen 
-am Gestänge im ungestörten Flug eine Tendenz zum Wegsteigen, Sinken oder Wegdrehen 
-zeigen, wird die mechanische Neutralstellung fliegend eingemessen:
+Sollte das Segelflugzeug im ungestörten Flug eine Tendenz zum Wegsteigen, Sinken 
+oder Wegdrehen zeigen, wird die mechanische Neutralstellung fliegend eingemessen:
 
 1. **Ausgangshöhe anfliegen:** Starten Sie das Modell und fliegen Sie auf eine 
    sichere Ausgangshöhe mit ausreichend Sicherheitsabstand zum Boden.
