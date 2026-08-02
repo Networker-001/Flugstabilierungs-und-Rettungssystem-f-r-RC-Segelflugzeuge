@@ -107,7 +107,9 @@ zu gestalten.
 Ziel ist es, eine Plattform für seglerspezifische Controller-Einstellungen zu 
 bieten. Es sollen verschiedene Mustervorlagen entstehen.
 
-Ein Informationsaustausch ist über RC-Network geplant.
+Ein Informationsaustausch erfolgt über das RC-Network Forum "Flightcontroller".
+
+[RC Network Forum](https://www.rc-network.de/threads/flugstabilisierungs-und-rettungssystem-f%C3%BCr-rc-segelflugzeuge.12130071/)
 
 Viel Spaß beim Lesen und Nachbauen!
 
