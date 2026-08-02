@@ -110,7 +110,6 @@ VERGLEICHSTABELLE DER INAV-PARAMETER
 |        | `vbat_min_cell_voltage`   | 350                    | 350                  | 350                     | 350                     |
 |        | `vbat_crit_cell_voltage`  | 330                    | 330                  | 330                     | 330                     |
 | **Board** | `gyro_main_lpf_hz`       | 25 Hz                  | 25 Hz                | 25 Hz                   | 30 Hz                  |
-|        | `align_mag`               | CW270FLIP              | CW90FLIP             | CW90FLIP                | *Je nach Einbau*        |
 
 
 
