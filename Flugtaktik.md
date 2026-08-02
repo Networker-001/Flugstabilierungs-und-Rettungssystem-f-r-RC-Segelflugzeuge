@@ -185,7 +185,7 @@ Wenn das Segelflugzeug in starker Thermik große Höhen erreicht, stehen dem
 Piloten zwei materialschonende und sichere Methoden zur Verfügung, um das 
 Modell kontrolliert nach unten zu führen.
 
-### Taktik 1: Gesteuerter Sinkflug im RTH-Autopilot (Per Tiefenruder)
+#### Taktik 1: Gesteuerter Sinkflug im RTH-Autopilot (Per Tiefenruder)
 Diese Methode eignet sich, wenn das Modell während des Abstiegs weiterhin 
 autonom stabilisiert und auf Kurs zum Startplatz gehalten werden soll:
 * **Ablauf:** Schalten Sie den RTH-Modus (**CH 7**) aktiv. Drücken Sie das 
