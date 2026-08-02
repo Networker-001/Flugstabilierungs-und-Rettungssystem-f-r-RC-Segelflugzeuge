@@ -3,8 +3,7 @@ Steckbriefe für verschiedene Modellkathegorien
 
 Wenn Sie ein anderes Modell als den Heron oder die ASW 27 mit diesem iNAV-
 System ausrüsten möchten, müssen Sie die Konfiguration an die spezifische 
-Aerodynamik und das Gewicht Ihres Modells anpassen. Flugzeuge lassen sich 
-dazu in vier grundlegende Kategorien einteilen:
+Aerodynamik und das Gewicht Ihres Modells anpassen. 
 
 Kategorie 1: Leichte Schaumsegler und Einsteiger-Modelle
 --------------------------------------------------------------------
