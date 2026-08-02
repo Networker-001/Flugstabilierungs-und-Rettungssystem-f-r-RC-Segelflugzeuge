@@ -88,7 +88,37 @@ gesteuert haben, übernimmt der Assistent das Zentrieren im Bart:
    mit, um ein Abkippen zu verhindern. Das System erlaubt im Loiter ein 
    kontinuierliches Steigen durch reine Thermikkraft.
 ---
+### Phase 5: Flug-Eintrimmung über die Autotrimm-Funktion (FW_AUTOTRIM)
 
+Sollte das Segelflugzeug nach dem Erstflug oder nach mechanischen Änderungen 
+am Gestänge im ungestörten Flug eine Tendenz zum Wegsteigen, Sinken oder Wegdrehen 
+zeigen, wird die mechanische Neutralstellung fliegend eingemessen:
+
+1. **Ausgangshöhe anfliegen:** Starten Sie das Modell und fliegen Sie auf eine 
+   sichere Ausgangshöhe mit ausreichend Sicherheitsabstand zum Boden.
+2. **Acro-Modus aktivieren:** Schalten Sie den Schalter für die Flugmodi in die 
+   mittlere Stellung, um den stabilisierten ACRO-Modus zu aktivieren. Bringen 
+   Sie das Modell in einen ruhigen, horizontalen Geradeausflug.
+3. **Autotrimm einschalten:** Aktivieren Sie im Geradeausflug den Schalter für 
+   den Autotrimm (Kanal 13). 
+4. **Geradeaus fliegen:** Lassen Sie die Steuerknüppel an der Fernsteuerung für 
+   ca. 5 bis 10 Sekunden komplett in der Mitte federn und steuern Sie nicht de-
+   stabilisierend gegen. Die iNAV-Software registriert den Halteaufwand des 
+   Gyros und lernt diese Korrekturwerte fliegend als neue Servomitten ein.
+5. **Autotrimm ausschalten:** Schalten Sie den Autotrimm-Schalter am Sender 
+   wieder in die Ausgangsstufe (Aus). Das Modell fliegt nun im ACRO-Modus 
+   absolut neutral im Strak.
+6. **Werte dauerhaft speichern:** Landen Sie das Segelflugzeug. Betätigen Sie 
+   am Boden bei noch eingeschaltetem Akku zwingend den Arm-Schalter (Disarm), 
+   um den Motor komplett auszuschalten. Erst durch diesen Disarm-Vorgang 
+   schreibt der Flight Controller die erflogenen Trimmwerte dauerhaft fest in 
+   seinen internen Speicher.
+
+*Hinweis für den Alltagsbetrieb:* Es schadet dem System nicht, wenn der Schalter 
+für den Autotrimm dauerhaft eingeschaltet bleibt. Die Software pausiert das 
+Lernen automatisch, sobald Sie aktiv an den Knüppel steuern, und lernt nur in 
+ruhigen Geradeausflug-Phasen unmerklich im Hintergrund mit.
+---
 ### Phase x Kontrollierter Abstieg aus großer Höhe
 
 Wenn das Segelflugzeug in starker Thermik große Höhen erreicht, stehen dem 
