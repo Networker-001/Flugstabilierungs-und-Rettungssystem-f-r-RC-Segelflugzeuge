@@ -66,27 +66,6 @@ gewährleisten:
    Der Autopilot bringt das Modell in einen stabilisierten, steilen 
    Höhengewinn und hält Kurs und Steigwinkel autonom, bis Sie aktiv eingreifen.
 
-### Phase 4: Thermik-Aktivierung und Loiter-Anpassung
-
-Sobald die Ausgangshöhe erreicht ist und Sie das Modell in ein Aufwindfeld 
-gesteuert haben, übernimmt der Assistent das Zentrieren im Bart:
-
-1. **Thermik erkennen:** Das integrierte akustische Vario an Ihrem Sender 
-   signalisiert über steigende Töne anhaltenden Aufwind.
-
-2. **Weiterfliegen:** Schalten Sie den Autopiloten noch nicht ein. Fliegen Sie 
-   bewusst noch ein kurzes Stück weiter geradeaus in das Aufwindfeld hinein, 
-   um tiefer in den Thermikbart vorzudringen.
-
-3. **Radius verkleinern:** Verkleinern Sie bereits jetzt über Ihren Live-Regler 
-   an der Fernsteuerung im Vorfeld stufenlos den Kreisradius, um das Modell auf 
-   einen engen Kreisflug vorzubereiten.
-
-4. **Loiter scharfschalten:** Aktivieren Sie erst jetzt den Kreisflug-Modus 
-   (**NAV LOITER**). Der Autopilot übernimmt das Steuer, fliegt das Modell 
-   exakt im voreingestellten, engen Radius und steuert das Seitenruder sauber 
-   mit, um ein Abkippen zu verhindern. Das System erlaubt im Loiter ein 
-   kontinuierliches Steigen durch reine Thermikkraft.
 ---
 ### Phase 5: Flug-Eintrimmung über die Autotrimm-Funktion (FW_AUTOTRIM)
 
@@ -120,6 +99,29 @@ aktiv an den Knüppeln steuern, und lernt nur in ruhigen Geradeausflug-Phasen
 unmerklich im Hintergrund mit.
 
 ---
+### Phase 6: Thermik-Aktivierung und Loiter-Anpassung
+
+Sobald die Ausgangshöhe erreicht ist und Sie das Modell in ein Aufwindfeld 
+gesteuert haben, übernimmt der Assistent das Zentrieren im Bart:
+
+1. **Thermik erkennen:** Das integrierte akustische Vario an Ihrem Sender 
+   signalisiert über steigende Töne anhaltenden Aufwind.
+
+2. **Weiterfliegen:** Schalten Sie den Autopiloten noch nicht ein. Fliegen Sie 
+   bewusst noch ein kurzes Stück weiter geradeaus in das Aufwindfeld hinein, 
+   um tiefer in den Thermikbart vorzudringen.
+
+3. **Radius verkleinern:** Verkleinern Sie bereits jetzt über Ihren Live-Regler 
+   an der Fernsteuerung im Vorfeld stufenlos den Kreisradius, um das Modell auf 
+   einen engen Kreisflug vorzubereiten.
+
+4. **Loiter scharfschalten:** Aktivieren Sie erst jetzt den Kreisflug-Modus 
+   (**NAV LOITER**). Der Autopilot übernimmt das Steuer, fliegt das Modell 
+   exakt im voreingestellten, engen Radius und steuert das Seitenruder sauber 
+   mit, um ein Abkippen zu verhindern. Das System erlaubt im Loiter ein 
+   kontinuierliches Steigen durch reine Thermikkraft.
+---
+
 ### Phase x Kontrollierter Abstieg aus großer Höhe
 
 Wenn das Segelflugzeug in starker Thermik große Höhen erreicht, stehen dem 
