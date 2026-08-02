@@ -38,6 +38,45 @@ Kategorie 4: Schnelle Hangsegler und Hotliner
 
 ---
 
+
+INAV-SCHLÜSSELPARAMETER 
+--------------------------------------------------------------------
+
+| Gruppe | iNAV-Variable | Funktion und Praxis-Bedeutung |
+| :--- | :--- | :--- |
+| **Speed** | `fw_reference_airspeed` | Aerodynamischer Bezugswert (in cm/s). Dämpft Ruder im Schnellflug, hebt sie im Langsamflug an. |
+| | `nav_fw_cruise_speed` | Standard-Fluggeschwindigkeit (in cm/s) für RTH-Streckenflug und Geradeausflug. |
+| | `nav_min_ground_speed` | Zwingt Motor bei Gegenwind zu (in cm/s). Bei Seglern '0' für freies Einparken im Wind. |
+| | `nav_fw_pitch2thr` | Prozentuale automatische Drosselzugabe, wenn der Autopilot die Nase zum Steigen anhebt. |
+| **Kurve** | `turn_assist_yaw_gain` | Regelt das Mitsteuern des Seitenruders. Wichtig gegen das negative Wendemoment langer Flächen. |
+| | `fw_turn_assist_p_gain`| Gleicht Sinken im Kreisflug aus. Hält die Nase in autonomen Kurven starr horizontal auf Höhe. |
+| | `yaw_rate` | Maximale Gier-Drehrate im autonomen Flug. Niedrige Werte erzwingen weiche Wenden. |
+| | `nav_fw_loiter_radius` | Standard-Radius (in cm) für den Loiter. Im Flug per Regler live anpassbar. |
+| | `nav_fw_bank_angle` | Begrenzt den maximalen Querneigungswinkel (Schräglage) in autonomen Phasen. |
+| **RTH** | `nav_rth_altitude` | Vordefinierte Basis-Mindesthöhe (in cm) für den Rückflug zum Startplatz. |
+| | `nav_rth_alt_mode` | Rechenlogik. Bei 'AT_LEAST' wird eine große Höhe (z. B. 465m) starr beibehalten. |
+| | `nav_rth_home_altitude`| Zielhöhe (in cm), auf der das Modell bei Ankunft über dem Startplatz einrasten soll. |
+| | `nav_min_rth_distance` | Mindestabstand (in cm). Blockiert RTH im Nahbereich gegen hektische Wenden über dem Kopf. |
+| | `nav_rth_climb_first` | Bei 'ON_FW_SPIRAL' steigt das Modell erst kreisend auf, anstatt geradeaus in Hindernisse zu fliegen. |
+| | `nav_rth_allow_landing`| Steuert Landeautomatik. Steht starr auf 'NEVER' für unendliche Warteschleifen über dem Piloten. |
+| | `nav_rth_use_linear_desc`| Aktiviert den gestreckten, sehr flachen und materialschonenden Höhenabbau über die RTH-Strecke. |
+| **Thermik**| `nav_fw_soaring_mot_stop`| Schaltet den Motor im Loiter hart aus, sobald das Soaring-Feature im Aufwind greift. |
+| | `nav_rth_alt_control_ovr`| Erlaubt dem Piloten das bewusste manuelle Sinkenlassen des Seglers im RTH per Höhenruder. |
+| **Launch**| `nav_fw_launch_velocity`| Mindest-Abwurfgeschwindigkeit (in cm/s), die beim Handstart erreicht sein muss vor Motorfreigabe. |
+| | `nav_fw_launch_accel` | Benötigter Beschleunigungsimpuls in G-Kräften (1500 = 1,5G) beim Wurf zur Launch-Aktivierung. |
+| | `nav_fw_launch_thr_delay`| Verzögerung (in ms). Motor startet erst, wenn die Hand sicher aus dem Propellerkreis raus ist. |
+| | `nav_fw_launch_throttle` | Motorleistung im automatischen Steigflug (1700 = 70% Gas, 2000 = 100% Vollgas). |
+| | `nav_fw_launch_climb_alt`| Start-Sicherheitshöhe (in cm). Bei Erreichen schaltet sich der Launch-Assistent vollautomatisch ab. |
+| | `nav_fw_launch_climb_ang`| Fester, stabilisierter Steigwinkel in Grad, den der Autopilot unmittelbar nach dem Handstart einnimmt. |
+| **Sicher**| `failsafe_procedure` | Notfall-Aktion bei totalem Funkabriss. Steht starr auf 'RTH' für autonome Heimkehr zum Piloten. |
+| | `vbat_cell_detect_volt`| Spannungsschwelle (in mV) zur automatischen Erkennung der LiPo-Zellenzahl beim Anstecken (starr 430). |
+| | `vbat_min_cell_voltage` | Löst die akustische Low-Battery-Warnung über den Beeper aus (350 = 3,50V pro Zelle). |
+| | `vbat_crit_cell_voltage` | Löst den kritischen Daueralarm über den Beeper aus (330 = 3,30V pro Zelle). |
+| **Board** | `gyro_main_lpf_hz` | Tiefpass-Filter für den Gyro. Niedrige Werte (25 Hz) schonen Servogetriebe vor Mikrovibrationen. |
+| | `align_mag` | Softwareseitige Ausrichtung des Magnetkompasses auf dem Board für fehlerfreie RTH-Berechnungen. |
+
+---
+
 VERGLEICHSTABELLE DER INAV-PARAMETER
 ====================================================================
 
@@ -76,39 +115,4 @@ VERGLEICHSTABELLE DER INAV-PARAMETER
 |        | `align_mag`               | CW270FLIP              | CW90FLIP             | CW90FLIP                | *Je nach Einbau*        |
 
 
-ERKLÄRUNG DER INAV-SCHLÜSSELPARAMETER 
---------------------------------------------------------------------
-
-| Gruppe | iNAV-Variable | Funktion und Praxis-Bedeutung |
-| :--- | :--- | :--- |
-| **Speed** | `fw_reference_airspeed` | Aerodynamischer Bezugswert (in cm/s). Dämpft Ruder im Schnellflug, hebt sie im Langsamflug an. |
-| | `nav_fw_cruise_speed` | Standard-Fluggeschwindigkeit (in cm/s) für RTH-Streckenflug und Geradeausflug. |
-| | `nav_min_ground_speed` | Zwingt Motor bei Gegenwind zu (in cm/s). Bei Seglern '0' für freies Einparken im Wind. |
-| | `nav_fw_pitch2thr` | Prozentuale automatische Drosselzugabe, wenn der Autopilot die Nase zum Steigen anhebt. |
-| **Kurve** | `turn_assist_yaw_gain` | Regelt das Mitsteuern des Seitenruders. Wichtig gegen das negative Wendemoment langer Flächen. |
-| | `fw_turn_assist_p_gain`| Gleicht Sinken im Kreisflug aus. Hält die Nase in autonomen Kurven starr horizontal auf Höhe. |
-| | `yaw_rate` | Maximale Gier-Drehrate im autonomen Flug. Niedrige Werte erzwingen weiche Wenden. |
-| | `nav_fw_loiter_radius` | Standard-Radius (in cm) für den Loiter. Im Flug per Regler live anpassbar. |
-| | `nav_fw_bank_angle` | Begrenzt den maximalen Querneigungswinkel (Schräglage) in autonomen Phasen. |
-| **RTH** | `nav_rth_altitude` | Vordefinierte Basis-Mindesthöhe (in cm) für den Rückflug zum Startplatz. |
-| | `nav_rth_alt_mode` | Rechenlogik. Bei 'AT_LEAST' wird eine große Höhe (z. B. 465m) starr beibehalten. |
-| | `nav_rth_home_altitude`| Zielhöhe (in cm), auf der das Modell bei Ankunft über dem Startplatz einrasten soll. |
-| | `nav_min_rth_distance` | Mindestabstand (in cm). Blockiert RTH im Nahbereich gegen hektische Wenden über dem Kopf. |
-| | `nav_rth_climb_first` | Bei 'ON_FW_SPIRAL' steigt das Modell erst kreisend auf, anstatt geradeaus in Hindernisse zu fliegen. |
-| | `nav_rth_allow_landing`| Steuert Landeautomatik. Steht starr auf 'NEVER' für unendliche Warteschleifen über dem Piloten. |
-| | `nav_rth_use_linear_desc`| Aktiviert den gestreckten, sehr flachen und materialschonenden Höhenabbau über die RTH-Strecke. |
-| **Thermik**| `nav_fw_soaring_mot_stop`| Schaltet den Motor im Loiter hart aus, sobald das Soaring-Feature im Aufwind greift. |
-| | `nav_rth_alt_control_ovr`| Erlaubt dem Piloten das bewusste manuelle Sinkenlassen des Seglers im RTH per Höhenruder. |
-| **Launch**| `nav_fw_launch_velocity`| Mindest-Abwurfgeschwindigkeit (in cm/s), die beim Handstart erreicht sein muss vor Motorfreigabe. |
-| | `nav_fw_launch_accel` | Benötigter Beschleunigungsimpuls in G-Kräften (1500 = 1,5G) beim Wurf zur Launch-Aktivierung. |
-| | `nav_fw_launch_thr_delay`| Verzögerung (in ms). Motor startet erst, wenn die Hand sicher aus dem Propellerkreis raus ist. |
-| | `nav_fw_launch_throttle` | Motorleistung im automatischen Steigflug (1700 = 70% Gas, 2000 = 100% Vollgas). |
-| | `nav_fw_launch_climb_alt`| Start-Sicherheitshöhe (in cm). Bei Erreichen schaltet sich der Launch-Assistent vollautomatisch ab. |
-| | `nav_fw_launch_climb_ang`| Fester, stabilisierter Steigwinkel in Grad, den der Autopilot unmittelbar nach dem Handstart einnimmt. |
-| **Sicher**| `failsafe_procedure` | Notfall-Aktion bei totalem Funkabriss. Steht starr auf 'RTH' für autonome Heimkehr zum Piloten. |
-| | `vbat_cell_detect_volt`| Spannungsschwelle (in mV) zur automatischen Erkennung der LiPo-Zellenzahl beim Anstecken (starr 430). |
-| | `vbat_min_cell_voltage` | Löst die akustische Low-Battery-Warnung über den Beeper aus (350 = 3,50V pro Zelle). |
-| | `vbat_crit_cell_voltage` | Löst den kritischen Daueralarm über den Beeper aus (330 = 3,30V pro Zelle). |
-| **Board** | `gyro_main_lpf_hz` | Tiefpass-Filter für den Gyro. Niedrige Werte (25 Hz) schonen Servogetriebe vor Mikrovibrationen. |
-| | `align_mag` | Softwareseitige Ausrichtung des Magnetkompasses auf dem Board für fehlerfreie RTH-Berechnungen. |
 
