@@ -45,7 +45,7 @@ INAV-SCHLÜSSELPARAMETER
 | :--- | :--- | :--- |
 | **Speed** | `fw_reference_airspeed` | Aerodynamischer Bezugswert (in cm/s). Dämpft Ruder im Schnellflug, hebt sie im Langsamflug an. |
 | | `nav_fw_cruise_speed` | Standard-Fluggeschwindigkeit (in cm/s) für RTH-Streckenflug und Geradeausflug. |
-| `nav_min_ground_speed` | Zwingt Motor bei starkem Gegenwind zu (in cm/s). Bei Schaumseglern '0' für freies Einparken. Bei GFK-Großseglern auf Sicherheitsfahrt (13-14 m/s), um Strömungsabrisse und Ruderlosigkeit in autonomen Wenden absolut zu verhindern oder den Parameter . |
+| | **`nav_min_ground_speed`**| **Starr auf '0' (Deaktiviert) für alle Klassen. Die Strömungssicherheit bei Wind wird bei GFK-Leistungs- und Großseglern rein über eine erhöhte Reisegeschwindigkeit im Gleitflug erzwungen.** |
 | | `nav_fw_pitch2thr` | Prozentuale automatische Drosselzugabe, wenn der Autopilot die Nase zum Steigen anhebt. |
 | **Kurve** | `turn_assist_yaw_gain` | Regelt das Mitsteuern des Seitenruders. Wichtig gegen das negative Wendemoment langer Flächen. |
 | | `fw_turn_assist_p_gain`| Gleicht Sinken im Kreisflug aus. Hält die Nase in autonomen Kurven starr horizontal auf Höhe. |
@@ -81,9 +81,9 @@ VERGLEICHSTABELLE DER INAV-PARAMETER
 
 | Gruppe | iNAV-Variable / Funktion | Kat. 1: Heron (Schaum) | Kat. 2: ASW 27 (GFK) | Kat. 3: Großsegler (5m) | Kat. 4: Hotliner / Hang |
 | :---   | :---                     | :---                   | :---                 | :---                    | :---                    |
-| **Speed**| `fw_reference_airspeed`  | 1500 (15 m/s)          | 1600 (16 m/s)        | 1900 (19 m/s)           | 2000 (20 m/s)           |
-|        | `nav_fw_cruise_speed`    | 1500 (15 m/s)          | 1600 (16 m/s)        | 1900 (19 m/s)           | 2000 (20 m/s)           |
-|        | **`nav_min_ground_speed`**| **0 (Deaktiviert)**    | **1300 (13 m/s)**    | **1400 (14 m/s)**       | **0 (Deaktiviert)**     |
+| **Speed**| `fw_reference_airspeed`  | 1500 (15 m/s)          | 1700 (17 m/s)        | 2000 (20 m/s)           | 2000 (20 m/s)           |
+|        | `nav_fw_cruise_speed`    | 1500 (15 m/s)          | 1700 (17 m/s)        | 2000 (20 m/s)           | 2000 (20 m/s)           |
+|        | **`nav_min_ground_speed`**| **0 (Deaktiviert)**    | **0 (Deaktiviert)**  | **0 (Deaktiviert)**     | **0 (Deaktiviert)**     |
 |        | `nav_fw_pitch2thr`       | 10                     | 4                    | 4                       | 3                       |
 | **Kurve**| **`turn_assist_yaw_gain`**| **1.000 (Maximum)**    | **0.600**            | **0.750 (Langes Heck)** | **0.400**               |
 |        | **`fw_turn_assist_p_gain`**| **0.400**              | **0.400**            | **0.400**               | **0.450**               |
@@ -109,10 +109,8 @@ VERGLEICHSTABELLE DER INAV-PARAMETER
 |        | **`vbat_cell_detect_volt`**| **430**                | **430**              | **430**                 | **430**                 |
 |        | `vbat_min_cell_voltage`   | 350                    | 350                  | 350                     | 350                     |
 |        | `vbat_crit_cell_voltage`  | 330                    | 330                  | 330                     | 330                     |
-| **Board** | `gyro_main_lpf_hz`       | 25 Hz                  | 25 Hz                | 25 Hz                   | 30 Hz (Direktes An-     |
-|        |                          |                        |                      |                         | sprechen der Ruder)     |
+| **Board** | `gyro_main_lpf_hz`       | 25 Hz                  | 25 Hz                | 25 Hz                   | 30 Hz                  |
 |        | `align_mag`               | CW270FLIP              | CW90FLIP             | CW90FLIP                | *Je nach Einbau*        |
-
 
 
 
