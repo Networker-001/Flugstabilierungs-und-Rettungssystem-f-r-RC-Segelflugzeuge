@@ -214,7 +214,7 @@ während der Gyro das Modell gegen Windböen stabilisiert:
   Modell baut durch den hohen Widerstand rasant Höhe ab, während der Gyro 
   die Fluglage ruhig hält.
 * **Fahrtkontrolle:** Da der ACRO-Modus die Fluggeschwindigkeit nicht autonom 
-  überwacht, müssen Sie die Sinkgeschwindigkeit im Schalterbetrieb aktiv mit 
+  überwacht, müssen Sie die Sinkgeschwindigkeit aktiv über das Vario oder mit 
   dem Auge kontrollieren. Sollte das Modell im steilen Abstieg zu viel Fahrt 
   aufnehmen, korrigieren Sie dies manuell durch leichtes Ziehen am Höhenruder, 
   um den Sinkwinkel flacher zu gestalten und die Tragflächen zu entlasten.
