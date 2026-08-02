@@ -55,6 +55,8 @@ GFK-Segler.
 | **Hardware**     | `gyro_main_lpf_hz = 25`       | Sanfter 25Hz-Filter dämpft Vibrations-Servo-Zappeln.|
 |                  | `align_mag = CW270FLIP`       | Ausrichtungsvorgabe für den Kompass auf dem Board.|
 
+---
+
 4. ERKLÄRUNG DER GESCHWINDIGKEITSPARAMETER
 --------------------------------------------------------------------
 - fw_reference_airspeed = 1500 (in cm/s): Erflogener Bezugswert für die Heron. 
