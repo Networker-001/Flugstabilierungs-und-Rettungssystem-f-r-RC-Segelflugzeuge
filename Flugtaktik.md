@@ -127,7 +127,36 @@ aktiv an den Knüppeln steuern, und lernt nur in ruhigen Geradeausflug-Phasen
 unmerklich im Hintergrund mit.
 
 ---
-### Phase 6: Thermik-Aktivierung und Loiter-Anpassung
+### Phase 6: Entlastung und Ausruhen im Flug (Erholungs-Phasen)
+
+Bei langen Flügen treten regelmäßig körperliche Belastungen wie ermüdete 
+Augenmuskulatur, Nacken-Verspannungen oder störende Insekten am Boden auf. 
+In diesen Stresssituationen bietet die Flugsteuerung gezielte Erholung:
+
+1. **Das Problem im ACRO-Modus:** Der rein stabilisierte ACRO-Modus reicht zum 
+   Ausruhen nicht aus. Das Modell fliegt zwar ruhig, behält aber seine Richtung 
+   starr bei und driftet mit dem Wind unkontrolliert vom Piloten weg. Der Blick 
+   darf hierbei nicht vom Modell genommen werden.
+   
+3. **Kurze Pause (NAV LOITER eng):** Schalten Sie bei akuter Ablenkung (z. B. 
+   Insekten) in den Kreisflug-Modus (NAV LOITER) mit engem Radius. Das Modell 
+   wird auf einem GPS-Punkt fixiert und kreist dort autonom. Der Pilot kann den 
+   Blick für kurze Zeit vom Himmel nehmen. Durch die ständige Kreisbewegung und 
+   das wechselnde Aufblitzen der Tragflächen im Sonnenlicht wird das Modell am 
+   Himmel erheblich sichtbarer. Sollten Sie den Segler nach der Pause dennoch 
+   nicht sofort wiederfinden, schalten Sie zwingend den RTH-Modus aktiv, damit 
+   das Flugzeug direkt auf Sie zukommt.
+   
+4. **Langes Ausruhen (NAV LOITER weitläufig):** Steuern Sie das Modell zuerst 
+   manuell an den gewünschten Mittelpunkt am Himmel, an dem das großflächige 
+   Kreisen stattfinden soll. Drehen Sie nun den Radius-Regler weit auf, um den 
+   großen Kreisradius im Vorfeld festzulegen. Schalten Sie danach den Kreisflug 
+   (NAV LOITER) aktiv. Das Modell legt sich sofort extrem flach in die Luft und 
+   zieht weitläufige, langsame Bahnen. Dies entlastet die konzentrierte Augen- 
+   und Nackenmuskulatur des Piloten. Die iNAV-Software fliegt den Segler 
+   vollkommen autonom, während der Pilot sich entspannen kann.
+---
+### Phase 7: Thermik-Aktivierung und Loiter-Anpassung
 
 Sobald die Ausgangshöhe erreicht ist und Sie das Modell in ein Aufwindfeld 
 gesteuert haben, übernimmt der Assistent das Zentrieren im Bart:
