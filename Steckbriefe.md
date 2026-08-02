@@ -45,7 +45,7 @@ INAV-SCHLÜSSELPARAMETER
 | :--- | :--- | :--- |
 | **Speed** | `fw_reference_airspeed` | Aerodynamischer Bezugswert (in cm/s). Dämpft Ruder im Schnellflug, hebt sie im Langsamflug an. |
 | | `nav_fw_cruise_speed` | Standard-Fluggeschwindigkeit (in cm/s) für RTH-Streckenflug und Geradeausflug. |
-| |`nav_min_ground_speed`   | 0 (Deaktiviert)        | 1300 (13 m/s - Schutz) | 1400 (14 m/s - Schutz) | 0 (Deaktiviert)         |
+| `nav_min_ground_speed` | Zwingt Motor bei starkem Gegenwind zu (in cm/s). Bei Schaumseglern '0' für freies Einparken. Bei GFK-Großseglern zwingend auf Sicherheitsfahrt (13-14 m/s), um Strömungsabrisse und Ruderlosigkeit in autonomen Wenden absolut zu verhindern. |
 | | `nav_fw_pitch2thr` | Prozentuale automatische Drosselzugabe, wenn der Autopilot die Nase zum Steigen anhebt. |
 | **Kurve** | `turn_assist_yaw_gain` | Regelt das Mitsteuern des Seitenruders. Wichtig gegen das negative Wendemoment langer Flächen. |
 | | `fw_turn_assist_p_gain`| Gleicht Sinken im Kreisflug aus. Hält die Nase in autonomen Kurven starr horizontal auf Höhe. |
