@@ -193,7 +193,4 @@ Hardware-Komponenten erfolgreich in der Praxis getestet und freigegeben:
 
 ## 8. Erweiterte Parametererklärungen
 
-1. **`heron_inav_cli.txt`:** Der fertige iNAV-CLI-Dump mit allen oben genannten 
-   aerodynamischen Filtern, Logikschaltern und Mischern.
-2. **`heron_edge_tx.yml`:** Die fertige Modelldatei für Ihre RadioMaster TX16S 
-   inklusive vorkonfigurierter Schalterbelegung für alle Flugphasen.
+➔ **[Heron INAV Parameter](Heron_INAV.md)**
