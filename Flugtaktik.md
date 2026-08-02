@@ -168,21 +168,27 @@ autonom stabilisiert und auf Kurs zum Startplatz gehalten werden soll:
   stabilisiert sich das Modell sofort wieder waagerecht und hält die aktuelle 
   Höhe starr. Die Klappen müssen dabei zwingend neutral im Strak bleiben.
 
-### Taktik 2: Stabilisierter Brems-Sinkflug (Per Butterfly / Krähenstellung)
+#### Taktik 2: Stabilisierter Brems-Sinkflug (Per Butterfly / Krähenstellung)
 Diese Methode eignet sich, um Höhe ohne nennenswerten Fahrtgewinn abzubauen, 
-während der Gyro das Modell krisenfrei gegen Windböen stabilisiert:
+während der Gyro das Modell gegen Windböen stabilisiert:
 * **⚠️ Wichtiger Sicherheitshinweis:** Aktivieren Sie das Butterfly-System 
-  (**CH 15**) niemals zeitgleich mit den autonomen Autopilot-Modi (NAV LOITER 
+  (CH 15) niemals zeitgleich mit den autonomen Autopilot-Modi (NAV LOITER 
   oder NAV RTH)! Die Steuerbefehle würden gegeneinander arbeiten und das Modell 
   in einen instabilen Flugzustand bringen.
-* **Ablauf:** Schalten Sie den Autopiloten (**CH 7**) komplett aus. Schalten 
-  Sie anschließend sofort den Schalter **SB (CH 6)** in die mittlere Stellung, 
+* **Ablauf:** Schalten Sie den Autopiloten (CH 7) komplett aus. Schalten 
+  Sie anschließend sofort den Schalter SB (CH 6) in die mittlere Stellung, 
   um den stabilisierten Acro-Modus zu aktivieren. Richten Sie das Modell gerade 
   in Richtung des Startplatzes aus.
-* **Wirkung:** Schalten Sie erst jetzt den Klappenschalter (**CH 15**) in die 
+* **Wirkung:** Schalten Sie erst jetzt den Klappenschalter (CH 15) in die 
   untere Stellung (Butterfly). Die Wölbklappen fahren nach unten, die Querruder 
-  nach oben, und der Sender mischt automatisch **10% Tiefenruder** dazu. Das 
+  nach oben, und der Sender mischt automatisch 10% Tiefenruder dazu. Das 
   Modell baut durch den hohen Widerstand rasant Höhe ab, während der Gyro 
   die Fluglage ruhig hält.
+* **Fahrtkontrolle:** Da der ACRO-Modus die Fluggeschwindigkeit nicht autonom 
+  überwacht, müssen Sie die Sinkgeschwindigkeit im Schalterbetrieb aktiv mit 
+  dem Auge kontrollieren. Sollte das Modell im steilen Abstieg zu viel Fahrt 
+  aufnehmen, korrigieren Sie dies manuell durch leichtes Ziehen am Höhenruder, 
+  um den Sinkwinkel flacher zu gestalten und die Tragflächen zu entlasten.
 * **Abfangen:** Schalten Sie die Klappen in Sicherheitsausgangshöhe wieder in 
   die Neutralstellung (Mitte) und leiten Sie die normale Landung ein.
+
