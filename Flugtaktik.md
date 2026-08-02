@@ -62,10 +62,13 @@ gewährleisten:
    gegen den Wind aus der Hand.
 
 5. **Autonomes Steigen:** Die iNAV-Software erkennt den Abwurf, und der Motor 
-   erhöht die Leistung vollautomatisch auf die eingestellte Startleistung.
+   erhöht die Leistung vollautomatisch auf die eingestellte Startleistung. 
    Der Autopilot bringt das Modell in einen stabilisierten, steilen 
-   Höhengewinn und hält Kurs und Steigwinkel autonom, bis Sie aktiv eingreifen.
-
+   Höhengewinn und hält Kurs und Steigwinkel autonom. Beim Erreichen der 
+   vordefinierten Start-Sicherheitshöhe (z. B. 50 Meter) deaktiviert sich die 
+   Steighilfe selbstständig, und das System übergibt die Kontrolle nahtlos an 
+   den am Sender vorgewählten Flugmodus. Hierbei wird der stabilisierte 
+   ACRO-Modus als Standard-Ausgangslage empfohlen.
 ---
 ### Phase 4: Der Normalflug (Manuell / Stabilisiert / Segelflug)
 
