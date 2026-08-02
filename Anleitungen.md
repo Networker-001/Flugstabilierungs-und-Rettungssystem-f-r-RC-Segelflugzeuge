@@ -21,7 +21,7 @@ zu gestalten. Hier die verfügbaren Anleitungen:
    > Stabilisiertes Schleppflugzeug für Kleinsegler mit Sicherheitsfunktionen.
    > In Bearbeitung
 
-**[Steckbriefe für Seglertypen)](Steckbriefe.md)**  
+**[Steckbriefe für verschiedene Seglertypen](Steckbriefe.md)**  
    > Erklärung der Seglerspezifischen Parameter
 
    > Parametervergleich für verschiedene Modellgrößen
