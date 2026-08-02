@@ -27,7 +27,7 @@ zu gestalten. Hier die verfügbaren Anleitungen:
    > Parametervergleich für verschiedene Modellgrößen
 
 **[Flugtaktiken (Flugtaktik.md)](Flugtaktik.md)** 
-   >Flugtaktiken in verschiedenen Situationen.
+   >Praxisleitfaden in verschiedenen Situationen.
    >
 
 **[Optionales iNAV Telemetrie-Widget (iNAV_Widget_TX16S/WIDGET.md)](https://github.com/iNavFlight/OpenTX-Telemetry-Widget)**  
