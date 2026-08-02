@@ -56,16 +56,17 @@ Servos wird das System zum unsichtbaren Co-Piloten und zur Lebensversicherung:
 3. **Thermikunterstützung (Kreis-Assistent):** Der FC hält über seine Sensorik 
    (Barometer/GPS) auf Wunsch eine exakte Schräglage und konstante Fahrt. Das 
    zentrierte Kreisen in Aufwinden wird dadurch massiv erleichtert.
-4. **Allgemeine Wind-Stabilisierung:** Automatisches Ausgleichen von böigem 
+   Der Radius ist im Flug über die Fernbedienung veränderbar.
+5. **Allgemeine Wind-Stabilisierung:** Automatisches Ausgleichen von böigem 
    Wind und Turbulenzen sorgt für ein ruhiges Flugbild.
-5. **Manueller Modus:** Manuelle Steuerung ohne Unterstützung durch den Gyro.
-6. **Startunterstützung beim Wurf:** Der FC erkennt den Wurf und steuert das 
+6. **Manueller Modus:** Manuelle Steuerung ohne Unterstützung durch den Gyro.
+7. **Startunterstützung beim Wurf:** Der FC erkennt den Wurf und steuert das 
    Modell auf eine stabile Flughöhe, bis der Pilot die Kontrolle übernimmt.
-7. **Akustische Warnmeldungen:** Der FC erkennt technische Defekte sowie 
+8. **Akustische Warnmeldungen:** Der FC erkennt technische Defekte sowie 
    unsichere Startparameter (wie Unterspannung oder fehlende GPS-Synchronisation) 
    und meldet diese über ein akustisches Beepen.
-8. **Einfache Konfiguration auf dem Platz:** Konfiguration durch Mobiltelefon oder PC.
-9. **Automatische Trimmen:** Trimmung im Flug bei Bedarf oder dauerhaft.
+9. **Einfache Konfiguration auf dem Platz:** Konfiguration durch Mobiltelefon oder PC.
+10. **Automatische Trimmen:** Trimmung im Flug bei Bedarf oder dauerhaft.
 ---
 
 ## Minimaler Aufwand durch vordefinierte Setups
