@@ -113,7 +113,7 @@ zeigen, wird die mechanische Neutralstellung fliegend eingemessen:
    um den Motor komplett auszuschalten. Erst durch diesen Disarm-Vorgang 
    schreibt der Flight Controller die erflogenen Trimmwerte dauerhaft fest in 
    seinen internen Speicher.
-Anmerkung.**Hinweis für den Alltagsbetrieb:** Es schadet dem System nicht, wenn der Schalter 
+Anmerkung. **Hinweis für den Alltagsbetrieb:** Es schadet dem System nicht, wenn der Schalter 
 für den Autotrimm dauerhaft eingeschaltet bleibt. Die Software pausiert das 
 Lernen automatisch, sobald Sie aktiv an den Knüppel steuern, und lernt nur in 
 ruhigen Geradeausflug-Phasen unmerklich im Hintergrund mit.
