@@ -38,7 +38,7 @@ Kategorie 4: Schnelle Hangsegler und Hotliner
 
 ---
 
-DIE GROSSE MASTER-VERGLEICHSTABELLE DER INAV-PARAMETER
+VERGLEICHSTABELLE DER INAV-PARAMETER
 ====================================================================
 
 | Gruppe | iNAV-Variable / Funktion | Kat. 1: Heron (Schaum) | Kat. 2: ASW 27 (GFK) | Kat. 3: Großsegler (5m) | Kat. 4: Hotliner / Hang |
