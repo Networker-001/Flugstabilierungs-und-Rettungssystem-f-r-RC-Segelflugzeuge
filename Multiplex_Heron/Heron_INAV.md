@@ -58,7 +58,7 @@ GFK-Segler.
 ---
 
 4. ERKLÄRUNG DER GESCHWINDIGKEITSPARAMETER
---------------------------------------------------------------------
+
 - fw_reference_airspeed = 1500 (in cm/s): Erflogener Bezugswert für die Heron. 
   Bei schnellem Motorflug werden die Ausschläge gedämpft, im langsamen 
   Thermikflug leicht angehoben.
