@@ -48,7 +48,7 @@ GFK-Segler.
 |                  | `nav_fw_launch_throttle = 1700`| Automatisches Startgas beträgt 70 Prozent Leistung.|
 |                  | `nav_fw_launch_climb_altitude = 5000`| Automatische Launch-Abschaltung bei 50 Metern Höhe.|
 |                  | `nav_fw_launch_climb_angle = 18`| Hält einen festen, sicheren Steigwinkel von 18°. |
-| **Sicherheit**   | `failsafe_procedure = RTH`    | Rettung bei Funkabriss. Modell fliegt nach Hause. |
+| **Sicherheit**   | `failsafe_procedure = RTH`    | Rettung bei Funkabriss. Modell fliegt nach Hause.(Noch nicht aktiviert) |
 |                  | `vbat_cell_detect_voltage = 430`| Automatische LiPo-Zellenerkennung beim Anstecken. |
 |                  | `vbat_min_cell_voltage = 350` | Akustischer Warnpiepser (Beeper) ab 3,5V pro Zelle.|
 |                  | `vbat_crit_cell_voltage = 330`| Kritischer Daueralarm (Beeper) ab 3,3V pro Zelle.  |
