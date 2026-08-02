@@ -39,6 +39,9 @@ und Automatismen konfiguriert:
   Lage des Kreises im Thermikbart anzupassen. Nach dem Loslassen kreist das 
   Modell autonom auf der korrigierten Flugbahn weiter.
 
+* **Manuelle Einstellung Kreisradius:** Im autonomen Kreisflug kann der Radius
+  durch Drehregler an der Fernsteuerung verändert werden.
+
 * **Echter Manueller Modus (CH 6):** Im Modus `MANUAL` wird der Gyro komplett 
   deaktiviert. Die Fernsteuerung steuert die Servos direkt an – ohne jede 
   Zwischenregelung des FCs.
