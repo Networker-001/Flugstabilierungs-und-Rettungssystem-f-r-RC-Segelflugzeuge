@@ -191,7 +191,7 @@ Hardware-Komponenten erfolgreich in der Praxis getestet und freigegeben:
 | **Empfänger**  | FrSky Archer RS Receiver | [FrSky Archer RS Receiver](https://google.com?q=FrSky+Archer+RS+Receiver)  |
    
 
-## Inhalt dieses Ordners
+## 8. Erweiterte Parametererklärungen
 
 1. **`heron_inav_cli.txt`:** Der fertige iNAV-CLI-Dump mit allen oben genannten 
    aerodynamischen Filtern, Logikschaltern und Mischern.
