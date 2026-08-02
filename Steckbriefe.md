@@ -1,4 +1,4 @@
-UNIVERSAL-LEITFADEN & MASTER-STECKBRIEF FÜR ANDERE MODELLE
+Steckbriefe für verschiedene Modellkathegorien
 ====================================================================
 
 Wenn Sie ein anderes Modell als den Heron oder die ASW 27 mit diesem iNAV-
