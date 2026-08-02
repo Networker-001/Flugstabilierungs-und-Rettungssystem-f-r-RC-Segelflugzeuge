@@ -23,6 +23,7 @@ zu gestalten. Hier die verfügbaren Anleitungen:
 
 **[Steckbriefe für Seglertypen)](Steckbriefe.md)**  
    > Erklärung der Seglerspezifischen Parameter
+
    > Parametervergleich für verschiedene Modellgrößen
 
 **[Flugtaktiken (Flugtaktik.md)](Flugtaktik.md)** 
