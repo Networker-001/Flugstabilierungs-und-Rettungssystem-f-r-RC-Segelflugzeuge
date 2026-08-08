@@ -98,7 +98,7 @@ VERGLEICHSTABELLE DER INAV-PARAMETER
 |        | `nav_rth_allow_landing`  | NEVER                  | NEVER                | NEVER                   | NEVER                   |
 |        | `nav_rth_use_linear_desc`| ON                     | ON                   | ON                      | ON                      |
 | **Thermik**| `nav_fw_soaring_motor_stop`| ON                   | ON                   | ON                      | ON                      |
-|        | `nav_rth_alt_control_ovr`| ON                     | ON                   | ON                      | ON                      |
+|        | `nav_rth_alt_control_override`| ON                     | ON                   | ON                      | ON                      |
 | **Launch**| `nav_fw_launch_velocity` | 200 (2 m/s)            | 200 (2 m/s)          | 200 (2 m/s)             | 200 (2 m/s)             |
 |        | `nav_fw_launch_accel`     | 1500 (1,5G)            | 1500 (1,5G)          | 1500 (1,5G)             | 1500 (1,5G)             |
 |        | `nav_fw_launch_thr_delay` | 200 (0,2 Sek.)         | 200 (0,2 Sek.)       | 200 (0,2 Sek.)          | 200 (0,2 Sek.)          |
