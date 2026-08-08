@@ -86,7 +86,7 @@ VERGLEICHSTABELLE DER INAV-PARAMETER
 |        | **`nav_min_ground_speed`**| **0 (Deaktiviert)**    | **0 (Deaktiviert)**  | **0 (Deaktiviert)**     | **0 (Deaktiviert)**     |
 |        | `nav_fw_pitch2thr`       | 10                     | 4                    | 4                       | 3                       |
 | **Kurve**| **`turn_assist_yaw_gain`**| **1.000 (Maximum)**    | **0.600**            | **0.750 (Langes Heck)** | **0.400**               |
-|        | **`fw_turn_assist_p_gain`**| **0.400**              | **0.400**            | **0.400**               | **0.450**               |
+|        | **`fw_turn_assist_p_gain`**| **0.200**              | **0.200**            | **0.200**               | **0.200**               |
 |        | `yaw_rate`               | 20                     | 3                    | 2 (Extrem weich)        | 5                       |
 |        | `nav_fw_loiter_radius`   | 5000 (50 Meter)        | 4800 (48 Meter)      | 6500 (65 Meter Radius)  | 4200 (42 Meter)         |
 |        | `nav_fw_bank_angle`      | 30 Grad                | 30 Grad              | 25 Grad (Flache Wenden) | 38 Grad                 |
@@ -97,7 +97,7 @@ VERGLEICHSTABELLE DER INAV-PARAMETER
 |        | `nav_rth_climb_first`    | ON_FW_SPIRAL           | ON_FW_SPIRAL         | ON_FW_SPIRAL            | ON_FW_SPIRAL            |
 |        | `nav_rth_allow_landing`  | NEVER                  | NEVER                | NEVER                   | NEVER                   |
 |        | `nav_rth_use_linear_desc`| ON                     | ON                   | ON                      | ON                      |
-| **Thermik**| `nav_fw_soaring_mot_stop`| ON                   | ON                   | ON                      | ON                      |
+| **Thermik**| `nav_fw_soaring_motor_stop`| ON                   | ON                   | ON                      | ON                      |
 |        | `nav_rth_alt_control_ovr`| ON                     | ON                   | ON                      | ON                      |
 | **Launch**| `nav_fw_launch_velocity` | 200 (2 m/s)            | 200 (2 m/s)          | 200 (2 m/s)             | 200 (2 m/s)             |
 |        | `nav_fw_launch_accel`     | 1500 (1,5G)            | 1500 (1,5G)          | 1500 (1,5G)             | 1500 (1,5G)             |
