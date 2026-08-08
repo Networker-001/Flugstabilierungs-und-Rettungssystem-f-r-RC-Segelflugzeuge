@@ -64,9 +64,9 @@ INAV-SCHLÜSSELPARAMETER
 | **Launch**| `nav_fw_launch_velocity`| Mindest-Abwurfgeschwindigkeit (in cm/s), die beim Handstart erreicht sein muss vor Motorfreigabe. |
 | | `nav_fw_launch_accel` | Benötigter Beschleunigungsimpuls in G-Kräften (1500 = 1,5G) beim Wurf zur Launch-Aktivierung. |
 | | `nav_fw_launch_thr_delay`| Verzögerung (in ms). Motor startet erst, wenn die Hand sicher aus dem Propellerkreis raus ist. |
-| | `nav_fw_launch_throttle` | Motorleistung im automatischen Steigflug (1700 = 70% Gas, 2000 = 100% Vollgas). |
-| | `nav_fw_launch_climb_alt`| Start-Sicherheitshöhe (in cm). Bei Erreichen schaltet sich der Launch-Assistent vollautomatisch ab. |
-| | `nav_fw_launch_climb_ang`| Fester, stabilisierter Steigwinkel in Grad, den der Autopilot unmittelbar nach dem Handstart einnimmt. |
+| | `nav_fw_launch_thr` | Motorleistung im automatischen Steigflug (1700 = 70% Gas, 2000 = 100% Vollgas). |
+| | `nav_fw_launch_max_altitude`| Start-Sicherheitshöhe (in cm). Bei Erreichen schaltet sich der Launch-Assistent vollautomatisch ab. |
+| | `nav_fw_launch_climb_angle`| Fester, stabilisierter Steigwinkel in Grad, den der Autopilot unmittelbar nach dem Handstart einnimmt. |
 | **Sicher**| `failsafe_procedure` | Notfall-Aktion bei totalem Funkabriss. Steht starr auf 'RTH' für autonome Heimkehr zum Piloten. |
 | | `vbat_cell_detect_volt`| Spannungsschwelle (in mV) zur automatischen Erkennung der LiPo-Zellenzahl beim Anstecken (starr 430). |
 | | `vbat_min_cell_voltage` | Löst die akustische Low-Battery-Warnung über den Beeper aus (350 = 3,50V pro Zelle). |
