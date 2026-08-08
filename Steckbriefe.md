@@ -102,7 +102,7 @@ VERGLEICHSTABELLE DER INAV-PARAMETER
 | **Launch**| `nav_fw_launch_velocity` | 200 (2 m/s)            | 200 (2 m/s)          | 200 (2 m/s)             | 200 (2 m/s)             |
 |        | `nav_fw_launch_accel`     | 1500 (1,5G)            | 1500 (1,5G)          | 1500 (1,5G)             | 1500 (1,5G)             |
 |        | `nav_fw_launch_thr_delay` | 200 (0,2 Sek.)         | 200 (0,2 Sek.)       | 200 (0,2 Sek.)          | 200 (0,2 Sek.)          |
-|        | `nav_fw_launch_throttle`  | 1700 (70% Gas)         | 2000 (100% Gas)      | 2000 (100% Vollgas)     | 2000 (100% Gas)         |
+|        | `nav_fw_launch_thr`  | 1700 (70% Gas)         | 2000 (100% Gas)      | 2000 (100% Vollgas)     | 2000 (100% Gas)         |
 |        | `nav_fw_launch_climb_alt` | 5000 (50 Meter)        | 5000 (50 Meter)      | 5000 (50 Meter)         | 5000 (50 Meter)         |
 |        | `nav_fw_launch_climb_ang` | 18 Grad                | 18 Grad              | 15 Grad (Flacher Steig) | 22 Grad                 |
 | **Sicher**| **`failsafe_procedure`**  | **RTH**                | **RTH**              | **RTH**                 | **RTH**                 |
