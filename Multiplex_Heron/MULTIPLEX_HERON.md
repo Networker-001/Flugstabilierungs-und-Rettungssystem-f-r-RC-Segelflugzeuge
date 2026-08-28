@@ -46,7 +46,7 @@ und Automatismen konfiguriert:
   deaktiviert. Die Fernsteuerung steuert die Servos direkt an – ohne jede 
   Zwischenregelung des FCs.
 
-* **Automatisches Einmessen (Autotrimm):** Die aktivierte Funktion `FW_AUTOTRIM` 
+* **Automatisches Einmessen (Autotrimm):** Die manuell aktivierte Funktion `FW_AUTOTRIM` 
   ermöglicht es, das Modell im stabilen Geradeausflug perfekt mechanisch 
   einzutrimmen. iNAV lernt die Mittenpositionen fliegend ein.
 
