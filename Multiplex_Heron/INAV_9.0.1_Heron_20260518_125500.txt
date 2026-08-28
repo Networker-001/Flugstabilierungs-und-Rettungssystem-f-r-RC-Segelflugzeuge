@@ -37,7 +37,7 @@ feature SOFTSERIAL
 feature GPS
 feature PWM_OUTPUT_ENABLE
 feature FW_LAUNCH
-feature FW_AUTOTRIM
+feature -FW_AUTOTRIM
 
 # beeper
 beeper -ON_USB
