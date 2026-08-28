@@ -76,7 +76,7 @@ sowie einen Drehregler auf Kanal 9:
 Dieser Schalter steuert die Verwölbung der Tragfläche (Wölbklappen und 
 Querruder) für die jeweilige Flugphase:
 * **Stellung Oben (Thermik-Phase):** Leichte Negativ-Stellung aller Klappen 
-  (Wölbklappen und Querruder fahren minimal nach oben).
+  (Wölbklappen und Querruder fahren minimal nach unten!!).
 * **Stellung Mitte (Normal-Phase):** Neutralstellung (Alle Klappen im Strak).
 * **Stellung Unten (Lande-Phase / Butterfly):** Volle Bremsstellung. Die 
   Wölbklappen fahren nach unten, die Querruder nach oben. Die notwendige 
