@@ -84,7 +84,6 @@ Querruder) für die jeweilige Flugphase:
 
 ---
 ## 3. Kanalbelegung & Schalterfunktionen (Fernsteuerung)
-
 Die folgende Übersicht zeigt die Zuordnung der Kanäle, der physischen Geber 
 an Ihrer RadioMaster TX16S und der zugehörigen iNAV-Flugfunktionen, sowie die Ausschläge
 
@@ -126,18 +125,20 @@ verkabelt und betrieben:
 ---
 
 ## 5. Physische Belegung der Ausgänge (Stiftleisten)
+Version 1.9.2026 Vertauschung Klappen und Querruder
 
 Verkabeln Sie die Komponenten Ihres Multiplex Heron exakt nach diesem Schema an 
 den Stiftleisten des SpeedyBee F405 Wing:
 
 * **`Stiftleiste 1`:** Anschluss für den FrSky-Empfänger (Signal, Strom, Masse)
 * **`Stiftleiste 2`:** Hauptmotor / Regler (ESC) ➔ (Gaskanal)
-* **`Stiftleiste 3`:** Wölbklappe ➔ `smix 1` / `smix 6` / `smix 7`
-* **`Stiftleiste 4`:** Höhenruder ➔ `smix 2` (Höhenkanal)
-* **`Stiftleiste 5`:** Seitenruder ➔ `smix 0` / `smix 3` (Seitenkanal)
-* **`Stiftleiste 6`:** Wölbklappe ➔ `smix 4` / `smix 5`
-* **`Stiftleiste 7`:** Querruder Links ➔ (Standard iNAV-Flächenmischer)
-* **`Stiftleiste 8`:** Querruder Rechts ➔ (Standard iNAV-Flächenmischer)
+* **`Stiftleiste 3`:** Leer
+* **`Stiftleiste 4`:** Querruder Links ➔ (Standard iNAV-Flächenmischer)
+* **`Stiftleiste 5`:** Höhenruder ➔ `smix 2` (Höhenkanal)
+* **`Stiftleiste 6`:** Seitenruder ➔ `smix 0` / `smix 3` (Seitenkanal)
+* **`Stiftleiste 7`:** Querruder Rechts ➔ (Standard iNAV-Flächenmischer)
+* **`Stiftleiste 8`:** Wölbklappe ➔ `smix 1` / `smix 6` / `smix 7`
+* **`Stiftleiste 9`:** Wölbklappe ➔ `smix 4` / `smix 5`
 
 ## Einbaurichtungen
 
