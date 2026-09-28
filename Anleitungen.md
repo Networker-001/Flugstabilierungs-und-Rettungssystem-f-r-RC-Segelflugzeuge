@@ -16,7 +16,7 @@ zu gestalten. Hier die verfügbaren Anleitungen:
    > und die passende EdgeTX-Modelldatei direkt im Ordner.
    > In Bearbeitung
 
-**[Multiplex Funcub Paket] (Multiplex_FunCub/INAV_9.0.1_funcub_20260724_171824.txt)**  
+**[Multiplex Funcub Paket (Multiplex_FunCub/INAV_9.0.1_funcub_20260724_171824.txt)]**  
    > Fertiges Setup für die Funcub. Enthält den iNAV-CLI-Dump 
    > Stabilisiertes Schleppflugzeug für Kleinsegler mit Sicherheitsfunktionen.
    > In Bearbeitung
