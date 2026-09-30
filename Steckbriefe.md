@@ -84,7 +84,7 @@ VERGLEICHSTABELLE DER INAV-PARAMETER
 | **Speed**| `fw_reference_airspeed`  | 1500 (15 m/s)          | 1700 (17 m/s)        | 2000 (20 m/s)           | 2000 (20 m/s)           |
 |        | `nav_fw_cruise_speed`    | 1500 (15 m/s)          | 1700 (17 m/s)        | 2000 (20 m/s)           | 2000 (20 m/s)           |
 |        | **`nav_min_ground_speed`**| **0 (Deaktiviert)**    | **0 (Deaktiviert)**  | **0 (Deaktiviert)**     | **0 (Deaktiviert)**     |
-|        | `nav_fw_pitch2thr`       | 10                     | 4                    | 4                       | 3                       |
+|        | `nav_fw_pitch2thr`       | 10                     | 10                    | 10                      | 10                       |
 | **Kurve**| **`turn_assist_yaw_gain`**| **1.000 (Maximum)**    | **0.600**            | **0.750 (Langes Heck)** | **0.400**               |
 |        | **`fw_turn_assist_p_gain`**| **0.200**              | **0.200**            | **0.200**               | **0.200**               |
 |        | `yaw_rate`               | 20                     | 3                    | 2 (Extrem weich)        | 5                       |
